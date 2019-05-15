@@ -1,42 +1,80 @@
 body {
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
+    min-height: 100%;
 } 
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font: lighter; /* I don't think this is working but idk how to do it lol. It should be open sans light */
-    font-size: 76pt;
+    font-weight: 300;
+    font-size: 76px;
+    line-height: 11px;
+
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 0px;
+    /* bauer bodoni costs money :( */
 }
 
 h3 {
-    font-family: 'Open Sans-Extrabold', sans-serif;
-    font-size: 18pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18pt;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+}
+
+input {
+    width: 71.5%;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;;
+    background-image: url(searchicon.png);
+    background-size: 18px 18px;
+    background-position: 634px 20px; 
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.landing-page {
+    color: #BB0000;
+    position: relative;
+    top: 50%;
+    transform: translateY(100%);
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 .row::after {
-  content: "";
-  clear: both;
-  display: grid;
-  grid-template-rows: 50px 10px;
+    content: "";
+    clear: both;
+    display: grid;
 }
 
 [class*="col-"] {
-  float: left;
-  padding: 20px;
+    float: left;
+    padding: 20px;
 }
 
 [class*="col-7"] {
-  background-color: #BB0000; /* dont know how to make it go all the way down !! */
+    background: #BB0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .col-1 {width: 8.33%;}
@@ -52,6 +90,11 @@ p {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* basically aaaaallllll of this responsive grid stuff is messy and idk what I'm doing. Buuuut it's doing something! Sooo that's cool 
-    wanna make all pt --> em
+/* basically aaaaallllll of this responsive grid stuff is messy and idk what I'm doing.
+    Buuuut it's doing something! Sooo that's cool. This is probably not the best way to
+    do it lol but I made it on a grid system
+
+    issues with changing window size  ¯\_(ツ)_/¯
+
+    px --> em
 */
