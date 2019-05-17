@@ -12,8 +12,8 @@ h1 {
 
 }
 
-h2 {
-    font-size: 40px;
+img {
+    font-size: 45px;
     line-height: 0px;
     /* bauer bodoni costs money :( */
 }
@@ -30,6 +30,7 @@ p {
     font-size: 18px;
     color: #000000;
     line-height: 24px;
+    padding-right: 100px;
 }
 
 input {
@@ -47,11 +48,15 @@ input {
     caret-color: #BB0000;
 }
 
+.wordmark-red {
+    width: 77%;
+}
+
 .landing-page {
     color: #BB0000;
     position: relative;
     top: 50%;
-    transform: translateY(100%);
+    transform: translateY(80%);
 }
 
 * {
