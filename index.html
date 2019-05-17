@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CMU Course Advisor</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800" rel="stylesheet">
-  </head>
-  <body>
-    <script src="script.js"></script>
+    <head>
+      <title>CMU Course Advisor</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800" rel="stylesheet">
+      <script src="js/script.js"></script>
+      
+    </head>
+    <body>
 
-<div class="col-7">
-    <input type="text" placeholder="Search for a professor, course, requirement, department..." />
-</div>
+    <div class="col-7">
+        <input id = "searchTxt" type="text" placeholder="Search for a professor, course, requirement, department..."/>
+        <script type = "text/javascript">
+            function contains(text1, text2){
+                if(text1.indexOf(text2) != -1){
+                    return true;
+                }       
+            }
+            $("#searchTxt").keyup(function(){
+                var searchTxt = $("#searchTxt").val().toLowerCase()
+                $("ul li").each(function(){
+                    if(contains($(this).text().toLowerCase(),searchTxt))
+                        location.replace("searchPage.html")    
+                    else
+                        location.replace("searchPage.html")    
+                });
+            });
+        </script>
+    </div>
 
-<div class="col-5 landing-page">
-    <h3>WELCOME TO THE</h3>
-    <h2>Carnegie Mellon University</h2>
-    <h1>Course Advisor</h1>
-    <p>Learn about the courses you're interested in from the students who know best.
-        Leave reviews for courses you've taken to help future students decide.</p>
-</div>
-
+    <div class="col-5 landing-page">
+        <h3>WELCOME TO THE</h3>
+        <h2>Carnegie Mellon University</h2>
+        <h1>Course Advisor</h1>
+        <p>Learn about the courses you're interested in from the students who know best.
+            Leave reviews for courses you've taken to help future students decide.</p>
+    </div>
+    
   </body>
 </html>
