@@ -1,9 +1,6 @@
 var placeholderTextArray = ["Art", "15112", "Kosbie", "Dietrich deciding", "Dietrich reflecting",
                             "Flaherty", "Computer science", "05430", "ECE", "Writing", "Biology"];
-<<<<<<< HEAD
-                            // any way to make a bigger pool without hard coding?
-=======
->>>>>>> 6b31c661d1b5710de8df75abbd3e5cd78dd6cc89
+                            // any way to make a bigger pool without hard coding
 var newPlaceholderText;
 var repitition;
 
