@@ -1,0 +1,13 @@
+* {
+  cursor: default;
+}
+
+html {
+  margin-left: calc(100vw - 100%);
+}
+
+body {
+  padding: 0px;
+  /* background: green; */
+  margin: 0px;
+}

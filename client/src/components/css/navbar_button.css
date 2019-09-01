@@ -1,0 +1,8 @@
+.navbarButtonGroup li{
+  margin-left: 10px;
+  /* border: 1px solid green; */
+}
+
+.navbarButtonGroup {
+  margin: 0px;
+}

@@ -1,0 +1,49 @@
+newmtl EXTRA_floor
+lambertian
+extra
+DR 0.25 0.25 0.25
+Pd 0.95 0.95 0.95
+endmtl
+
+newmtl EXTRA_wall
+lambertian
+extra
+DR 0.25 0.25 0.25
+Pd 0.9 0.9 0.9
+endmtl
+
+newmtl FILLIN_ceiling
+lambertian
+fillin
+DR 1 1 1
+Pd 0 0 0
+endmtl
+
+newmtl FILLIN_wall_0
+lambertian
+fillin
+DR 1 1 1
+Pd 0 0 0
+endmtl
+
+newmtl GLASS_1
+glass
+DR 0 0 0
+SR 0 0 0
+DT 0 0 0
+ST 0.8 0.8 0.8
+Pd 0.9 0.9 0.9
+endmtl
+
+newmtl floor
+lambertian
+DR 1 1 1
+Pd 0.95 0.95 0.95
+endmtl
+
+newmtl wall_0
+lambertian
+DR 1 1 1
+Pd 0.9 0.9 0.9
+endmtl
+

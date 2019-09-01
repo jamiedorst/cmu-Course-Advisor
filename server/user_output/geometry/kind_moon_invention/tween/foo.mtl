@@ -1,0 +1,55 @@
+newmtl EXTRA_wall_top
+Kd 0.2 0.2 0.2
+
+newmtl WALL0_0
+Kd 0 0 1
+map_Ka WALL0_0_texture.ppm
+
+newmtl WALL0_1
+Kd 0 0 1
+map_Ka WALL0_1_texture.ppm
+
+newmtl WALL0_2
+Kd 0 0 1
+map_Ka WALL0_2_texture.ppm
+
+newmtl WALL0_3
+Kd 0 0 1
+map_Ka WALL0_3_texture.ppm
+
+newmtl WALL1_0
+Kd 0 0 1
+map_Ka WALL1_0_texture.ppm
+
+newmtl WALL1_1
+Kd 0 0 1
+map_Ka WALL1_1_texture.ppm
+
+newmtl WALL1_2
+Kd 0 0 1
+map_Ka WALL1_2_texture.ppm
+
+newmtl WALL1_3
+Kd 0 0 1
+map_Ka WALL1_3_texture.ppm
+
+newmtl WALL2_0
+Kd 0 0 1
+map_Ka WALL2_0_texture.ppm
+
+newmtl WALL2_1
+Kd 0 0 1
+map_Ka WALL2_1_texture.ppm
+
+newmtl WALL2_2
+Kd 0 0 1
+map_Ka WALL2_2_texture.ppm
+
+newmtl WALL2_3
+Kd 0 0 1
+map_Ka WALL2_3_texture.ppm
+
+newmtl floor_0_0
+Kd 0.8 0.8 0.8
+map_Ka floor_0_0_texture.ppm
+
