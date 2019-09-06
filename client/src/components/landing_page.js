@@ -1,35 +1,32 @@
 // @flow
 import React, {Component} from 'react';
-
-//import '../css/bootstrap.min.css';
+import SearchFunction from './search.js';
 import './css/landing_page.css';
+import wordmark_red from '../images/CMU-red.png';
 
 type State = {}
 type Props = {}
 
-class LandingPage extends Component < State,
-Props > {
+class LandingPage extends Component < State, Props > {
   render() {
-    return (<div><div id="main">
-      <div className="main_img">
-        <div className="main_centered">Order Online</div>
-      </div>
-    </div>
+    return (<div><div className="col-7">
+          <input id="searchTxt" type="text" placeholder= "Search for a professor, course, requirement, department..." />
+        </div> 
 
-    <div id="tutorial">
-      <div className="grid-container">
-        <div className="grid-header">How to Use This Site</div>
-        <div className="grid-item">
-          <div className="grid-img">看</div>
-          <div className="grid-img">選</div>
-          <div className="grid-img">買</div>
-          <div className="grid-txt">Checkout Our Menu</div>
-          <div className="grid-txt">Select What You Want To Eat</div>
-          <div className="grid-txt">Get It Delivered Or Scheduled For Pickup</div>
+        <div className="col-5 landing-page">
+          <h3>WELCOME TO THE</h3>
+          <img className="wordmark_red" src={wordmark_red} onError="this.style.borderWidth=0" alt="Carnegie Mellon University" />
+          <h1>Course Advisor</h1>
+          <p>Learn about the courses you're interested in from the students who know best. Leave reviews for courses you've taken to help future students decide.</p>
+          <p id="faded">Prefer to browse&#63; Click <a id="inLineLink" href="http://www.codecademy.com/">here</a> to look at the course catalog.</p>
         </div>
-      </div>
-    </div></div>);
+
+      </div>);
   }
 }
 
+
 export default LandingPage;
+
+// change link!!!!
+// cant click search image

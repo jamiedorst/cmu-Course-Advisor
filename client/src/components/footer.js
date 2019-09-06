@@ -11,7 +11,7 @@ Props > {
   render() {
     return (<div id="footer">
       <ul>
-        <li>© New Garden Chinese Cuisine 2011-2018</li>
+        <li>© jamie :D 2019</li>
         <li>About Us</li>
         <li>Terms of Use</li>
         <li>Report Website Bugs</li>

@@ -1,4 +1,5 @@
-// @flow
+// navbar
+// not present on landing page
 import React, {Component} from 'react';
 import './css/navbar.css';
 
@@ -16,10 +17,8 @@ Props > {
   render() {
     return (<div id="navbar">
       <ul>
-        <li onClick={()=>{this.changeUrl('/')}}>Home</li>
-        <li onClick={()=>{this.changeUrl('/menu')}}>Menu</li>
-        <li onClick={()=>{this.changeUrl('/location')}}>Location</li>
-        <li onClick={()=>{this.changeUrl('/checkout')}}>Checkout</li>
+        <li onClick={()=>{this.changeUrl('/menu')}}>Browse</li>
+        <li onClick={()=>{this.changeUrl('/checkout')}}>Profile</li>
         <li onClick={()=>{this.changeUrl('/about')}}>About</li>
       </ul>
     </div>);
