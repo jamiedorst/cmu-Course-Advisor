@@ -70,8 +70,7 @@ input {
 .landing-page {
     color: #BB0000;
     position: relative;
-/*    top: 50%;
-*/    transform: translateY(70%);
+    transform: translateY(70%);
 }
 
 
@@ -116,6 +115,6 @@ input {
 
 /*
 TEXT DOESNT HAVE MINIMUM OR MAXIMUM SIZES–WE NEED THAT eventually
-
+Responsive text still imperfect
 Search bar doesn't change size proportionally? Search text remains long
 */

@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 //import Navbar from './navbar.js';
 import LandingText from './landing_page.js';
 import Location from './location.js';
-import SearchFunction from './search.js';
+import SearchResults from './searchResults.js';
 import Footer from './footer.js';
 import './css/app.css';
 
@@ -49,8 +49,8 @@ Props > {
   createPage() {
     if(this.state.page==="/") {
       return this.state.landing_page;
-    } else if(this.state.page==="/location") {
-      return <Location/>;
+    } else if(this.state.page==="/searchResults") {
+      return <searchResults/>;
     }
   }
 
