@@ -2,10 +2,11 @@
 import React, {Component} from 'react';
 
 //import Navbar from './navbar.js';
-import LandingText from './landing_page.js';
+import LandingPage from './landing_page.js';
 import Location from './location.js';
 import SearchResults from './searchResults.js';
 import Footer from './footer.js';
+import About from './about.js';
 import './css/app.css';
 
 
@@ -18,14 +19,9 @@ Props > {
     super(props);
     this.state = {
       page: window.location.pathname,
-      landing_page: <LandingText/>,
-      menu_page_state: {
-        tabSelected: 0,
-        categorySelected: 0,
-        hoveredItem: "",
-        hoveredTab: "",
-        selectedTab: "All Dishes",
-      },
+      landing_page: <LandingPage/>,
+      searchResults: <SearchResults/>,
+      about: <About/>,
       modal: ""
     }
   }
@@ -50,9 +46,12 @@ Props > {
     if(this.state.page==="/") {
       return this.state.landing_page;
     } else if(this.state.page==="/searchResults") {
-      return <searchResults/>;
+      return this.state.searchResults;
+    } else if (this.state.page==="/about") {
+      return this.state.about
     }
   }
+
 
   render() {
     const pageStyle = {

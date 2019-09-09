@@ -1,0 +1,214 @@
+/*
+Master CSS for all files
+*/
+
+
+/* ------------------------UNIVERSAL--------------------------- */
+/* ------------------------UNIVERSAL--------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    min-height: 100%;
+} 
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: grid;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    color: #000000;
+    padding-right: 100px;
+    padding-bottom: 18px;
+    line-height: normal;
+}
+
+/* ------------------------UNIVERSAL--------------------------- */
+/* ------------------------UNIVERSAL--------------------------- */
+
+
+
+
+/* -----------------------LANDING PAGE------------------------- */
+/* -----------------------LANDING PAGE------------------------- */
+
+h1.landingPage {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4.5vw;
+    line-height: 11px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+
+h3.landingPage {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.2vw;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.landing7 { 
+    background: #BB0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    width: 71.5%;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../../images/searchIcon.png);
+    background-size: 18px 18px;
+    background-position: 97% 50%; 
+    background-repeat: no-repeat;
+    background-color: "white";
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    caret-color: #BB0000;
+    cursor: auto;
+}
+
+.landing5 {
+    color: #BB0000;
+    position: relative;
+    transform: translateY(70%);
+}
+
+#faded {
+    color: #808080;
+    font-size: 1vw;
+}
+
+#inLineLink {
+    color: #808080;
+    font-size: 1vw;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wordmark_red {
+    width: 77%;
+    font-size: 45px;
+    line-height: 0px;
+    /* bauer bodoni costs money :( */
+}
+
+/* -----------------------LANDING PAGE------------------------- */
+/* -----------------------LANDING PAGE------------------------- */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+
+h1.search {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h3.search {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #BB0000;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h5.search {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #BB0000;
+}
+
+.mini {
+    font-weight: 300i;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.search12 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 8.33%;
+}
+
+.search6 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 8.33%;
+}
+
+.search7 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 8.33%;
+}
+
+.search2 {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+
+
+
+/*
+TEXT DOESNT HAVE MINIMUM OR MAXIMUM SIZES–WE NEED THAT eventually
+Responsive text still imperfect
+Search bar doesn't change size proportionally? Search text remains long
+*/
