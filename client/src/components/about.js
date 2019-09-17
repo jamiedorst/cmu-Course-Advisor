@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import './css/about.css';
+import './css/master.css';
 
 type State = {}
 type Props = {}

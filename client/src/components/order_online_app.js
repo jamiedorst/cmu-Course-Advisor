@@ -7,6 +7,7 @@ import Location from './location.js';
 import SearchResults from './searchResults.js';
 import Footer from './footer.js';
 import About from './about.js';
+import Navbar from './navbar.js';
 import './css/app.css';
 
 
@@ -22,6 +23,7 @@ Props > {
       landing_page: <LandingPage/>,
       searchResults: <SearchResults/>,
       about: <About/>,
+      navbar: <Navbar/>,
       modal: ""
     }
   }
@@ -46,9 +48,9 @@ Props > {
     if(this.state.page==="/") {
       return this.state.landing_page;
     } else if(this.state.page==="/searchResults") {
-      return this.state.searchResults;
+      return this.state.searchResults, this.state.navbar;
     } else if (this.state.page==="/about") {
-      return this.state.about
+      return this.state.about, this.state.navbar;
     }
   }
 
