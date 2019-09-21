@@ -228,6 +228,7 @@ li.nav {
     display: inline-block;
     float: right;
     list-style-type: none;
+    text-align: center;
 }
 
 h1.nav {
@@ -239,6 +240,7 @@ h1.nav {
     margin-bottom: 75px;
     color: #FFFFFF;
     background-color: transparent;
+    text-align: center;
 }
 
 .col-12.nav {
