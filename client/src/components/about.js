@@ -7,8 +7,6 @@ type Props = {}
 
 class About extends Component < State, Props > {
 
-
-
   render() {
     return (<div>
 
@@ -20,7 +18,7 @@ class About extends Component < State, Props > {
 
       </div>);
   }
-  
+
 }
 
 export default About;

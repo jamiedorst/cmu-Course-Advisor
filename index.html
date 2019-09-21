@@ -7,7 +7,7 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,800" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="js/script.js"></script>
-      
+
     </head>
 
     <body>
@@ -17,15 +17,15 @@
             function contains(text1, text2){
                 if(text1.indexOf(text2) != -1){
                     return true;
-                }       
+                }
             }
             $("#searchTxt").keyup(function(){
                 var searchTxt = $("#searchTxt").val().toLowerCase()
                 $("ul li").each(function(){
                     if(contains($(this).text().toLowerCase(),searchTxt))
-                        location.replace("searchPage.html")    
+                        location.replace("searchPage.html")
                     else
-                        location.replace("searchPage.html")    
+                        location.replace("searchPage.html")
                 });
             });
         </script>

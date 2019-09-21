@@ -5,7 +5,6 @@ import './css/master.css';
 type State = {}
 type Props = {}
 
-
 class searchResults extends Component < State, Props > {
 
     render() {
@@ -19,7 +18,7 @@ class searchResults extends Component < State, Props > {
                 <h3 className="search">XX-XXX</h3>
                 <p>name of CMU class</p>
                 <p className="mini">SCS: Computer Science</p>
-            </div> 
+            </div>
 
             <div className="col-3 search">
                 <h4>prof1, prof2</h4>
