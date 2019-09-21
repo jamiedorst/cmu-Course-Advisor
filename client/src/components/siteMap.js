@@ -28,14 +28,6 @@ Props > {
       }
   }
 
-  updateMenuState(updatedStateValues) {
-      const {menu_page_state} = this.state;
-      Object.keys(updatedStateValues).forEach(key=>{
-          menu_page_state[key] = updatedStateValues[key];
-      });
-      this.setState({menu_page_state: menu_page_state});
-  }
-
   updateModal(modal) {
       this.setState({modal: modal});
   }
@@ -48,9 +40,9 @@ Props > {
       if(this.state.page==="/") {
           return this.state.landing_page;
       } else if(this.state.page==="/searchResults") {
-          return this.state.searchResults, this.state.navbar;
+          return this.state.searchResults;
       } else if (this.state.page==="/about") {
-          return this.state.about, this.state.navbar;
+          return this.state.about;
       }
   }
 
@@ -59,11 +51,18 @@ Props > {
           width: "100%",
           padding: "0px",
       };
-
-      return (<div style={pageStyle}>
-          {this.state.modal}
-          {this.createPage()}
-          </div>);
+      if(this.state.page==="/") {
+          return (<div style={pageStyle}>
+              {this.state.modal}
+              {this.createPage()}
+              </div>);
+      } else {
+          return (<div style={pageStyle}>
+              <Navbar/>
+              {this.state.modal}
+              {this.createPage()}
+              </div>);
+      }
   }
 }
 

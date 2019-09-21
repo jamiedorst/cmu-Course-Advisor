@@ -1,11 +1,12 @@
 // search function
 import React, {Component} from 'react';
+import Navbar from './navbar.js';
 import './css/master.css';
 
 type State = {}
 type Props = {}
 
-class searchResults extends Component < State, Props > {
+class SearchResults extends Component < State, Props > {
 
     render() {
         return (<div>
@@ -34,4 +35,4 @@ class searchResults extends Component < State, Props > {
     }
 }
 
-export default searchResults;
+export default SearchResults;

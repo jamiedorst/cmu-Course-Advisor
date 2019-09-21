@@ -21,7 +21,7 @@ Props > {
             <div className="col-12 nav">
                 <img className="wordmark_white" src={wordmark_white} onError="this.style.borderWidth=0" alt="Carnegie Mellon University" />
                 <h1 className="nav">Course Advisor</h1>
-                <ul>
+                <ul className  = "nav">
                     <li className="nav" onClick={()=>{this.changeUrl('/menu')}}>Browse</li>
                     <li className="nav" onClick={()=>{this.changeUrl('/checkout')}}>Profile</li>
                     <li className="nav" onClick={()=>{this.changeUrl('/about')}}>About</li>

@@ -218,6 +218,11 @@ h5.search {
     padding: 0px;
 }
 
+ul.nav {
+    background-color: transparent;
+    float: right;
+}
+
 li.nav {
     width: 100px;
     text-align: right;
@@ -263,7 +268,7 @@ input.nav {
     background-color: "white";
     padding-top: 14px;
     padding-right: 32px;
-    padding-left: 20px;
+    padding-left: 14px;
     padding-bottom: 14px;
     caret-color: #BB0000;
     cursor: auto;
@@ -288,7 +293,7 @@ input.nav {
 
 /* ---------------------------FOOTER--------------------------- */
 /* ---------------------------FOOTER--------------------------- */
-*{
+* {
   font-family: 'Open  Sans', sans-serif;
   background: white;
 }
