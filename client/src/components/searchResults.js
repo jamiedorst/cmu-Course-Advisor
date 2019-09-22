@@ -1,6 +1,5 @@
 // search function
 import React, {Component} from 'react';
-import Navbar from './navbar.js';
 import './css/master.css';
 
 type State = {}
@@ -11,24 +10,26 @@ class SearchResults extends Component < State, Props > {
     render() {
         return (<div>
 
-            <div className ="col-12 search">
+            <div className="col-12 search">
                 <h1 className="search">&ldquo;search query&rdquo;</h1>
             </div>
 
-            <div className ="col-7 search">
-                <h3 className="search">XX-XXX</h3>
-                <p>name of CMU class</p>
+            <hr></hr>
+
+            <div className="col-7 search">
+                <h3 className="search">00-000</h3>
+                <p className="search">Probably Lengthy CMU Class Name</p>
                 <p className="mini">SCS: Computer Science</p>
             </div>
 
             <div className="col-3 search">
-                <h4>prof1, prof2</h4>
+                <h4>professor one, professor two</h4>
                 <p className="mini">Offered Fall 2019</p>
             </div>
 
             <div className="col-2 search">
-                <h5>4.6</h5>
-                <h6>"&#47;5"</h6>
+                <h5 className="search">4.6</h5>
+                <h6 className="search">"&#47;5"</h6>
             </div>
 
         </div>);

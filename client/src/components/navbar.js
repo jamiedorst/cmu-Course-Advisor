@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import './css/master.css';
 import wordmark_white from '../images/CMU-white.png';
+import user from '../images/user.png';
 
 type State = {}
 type Props = {}
@@ -16,17 +17,20 @@ Props > {
     }
 
     render() {
-        return (<div id="navbar">
+        return (<div>
 
             <div className="col-12 nav">
                 <img className="wordmark_white" src={wordmark_white} onError="this.style.borderWidth=0" alt="Carnegie Mellon University" />
                 <h1 className="nav">Course Advisor</h1>
-                <ul className  = "nav">
+
+                <ul className="nav">
+                    <li className="nav" onClick={()=>{this.changeUrl('/about')}}>About</li> 
                     <li className="nav" onClick={()=>{this.changeUrl('/menu')}}>Browse</li>
-                    <li className="nav" onClick={()=>{this.changeUrl('/checkout')}}>Profile</li>
-                    <li className="nav" onClick={()=>{this.changeUrl('/about')}}>About</li>
                 </ul>
+
                 <input className="nav" type="text"/>
+
+                <img className="user" src={user} onClick={()=>{this.changeUrl('/profile')}}/>
             </div>
 
         </div>);
