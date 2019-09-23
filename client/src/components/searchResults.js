@@ -31,14 +31,14 @@ function Results(props) {
 class SearchResults extends Component < State, Props > {
 
     render() {
-        let arr = [ <Results/>, <Results/>, <Results/>, <Results/>, <Results/>]
+        let arr = [ <Results/>, <Results/>, <Results/>, <Results/>, <Results/>, <Results/>, <Results/>, <Results/>]
 
         return (<div>
             <div className="col-12 search">
                 <h1 className="search">&ldquo;search query&rdquo;</h1>
             </div>
 
-            <div className="filter">
+            <div className="col-8 filter">
                 <div className="button">
                     <h6 className="search">ALL SEMESTERS<span className="triangle"></span></h6>
                 </div>
@@ -56,7 +56,11 @@ class SearchResults extends Component < State, Props > {
                 </div>
             </div>
 
-            <div> {arr} </div>
+            <div className="col-4 sort">
+                <p className="mini">XX results sorted by <span id="sort">Best Match</span></p>
+            </div>
+
+            <div>{arr}</div>
         </div>);
     }
 }
