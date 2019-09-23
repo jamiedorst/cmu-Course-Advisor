@@ -5,17 +5,9 @@ import './css/master.css';
 type State = {}
 type Props = {}
 
-class SearchResults extends Component < State, Props > {
-
-    render() {
-
-        return (<div>
-
-            <div className="col-12 search">
-                <h1 className="search">&ldquo;search query&rdquo;</h1>
-            </div>
-
-            <hr></hr>
+function Results(props) {
+    return(<div>
+        <hr></hr>
 
             <div className="col-7 search">
                 <div className="title">
@@ -33,7 +25,38 @@ class SearchResults extends Component < State, Props > {
             <div className="col-2 search">
                 <h5 className="search">4.6<span className="outOf">&#47;5</span></h5>
             </div>
+        </div>);
+}
 
+class SearchResults extends Component < State, Props > {
+
+    render() {
+        let arr = [ <Results/>, <Results/>, <Results/>, <Results/>, <Results/>]
+
+        return (<div>
+            <div className="col-12 search">
+                <h1 className="search">&ldquo;search query&rdquo;</h1>
+            </div>
+
+            <div className="filter">
+                <div className="button">
+                    <h6 className="search">ALL SEMESTERS<span className="triangle"></span></h6>
+                </div>
+                <div className="button">
+                    <h6 className="search">ALL PROFESSORS<span className="triangle"></span></h6>
+                </div>
+                <div className="button">
+                    <h6 className="search">ALL RATINGS<span className="triangle"></span></h6>
+                </div>
+                <div className="button">
+                    <h6 className="search">ALL REQUIREMENTS<span className="triangle"></span></h6>
+                </div>
+                <div className="button">
+                    <h6 className="search">ALL DEPARTMENTS<span className="triangle"></span></h6>
+                </div>
+            </div>
+
+            <div> {arr} </div>
         </div>);
     }
 }

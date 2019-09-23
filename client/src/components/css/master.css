@@ -10,6 +10,7 @@ Master CSS for all files
     box-sizing: border-box;
     margin: 0;
     background: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -42,15 +43,6 @@ body {
     display: grid;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1vw;
-    color: #000000;
-    padding-right: 100px;
-    padding-bottom: 18px;
-    line-height: normal;
-}
-
 /* ------------------------UNIVERSAL--------------------------- */
 /* ------------------------UNIVERSAL--------------------------- */
 
@@ -62,7 +54,6 @@ p {
 /* -----------------------LANDING PAGE------------------------- */
 
 h1.landingPage {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 4.5vw;
     line-height: 11px;
@@ -71,11 +62,18 @@ h1.landingPage {
 }
 
 h3.landingPage {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 1.2vw;
     line-height: 24px;
     margin-bottom: 20px;
+}
+
+p.landingPage {
+    font-size: 1.1vw;
+    color: #000000;
+    padding-right: 100px;
+    padding-bottom: 18px;
+    line-height: normal;
 }
 
 .col-7.landingPage {
@@ -89,7 +87,6 @@ h3.landingPage {
 input.landingPage {
     width: 71.5%;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
     background-image: url(../../images/searchIcon.png);
     background-size: 18px 18px;
     background-position: 97% 50%;
@@ -140,48 +137,80 @@ input.landingPage {
 /* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
 
 h1.search {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 42px;
+    font-size: 2.6vw;
+    margin-bottom: 15px;
 }
 
 h3.search {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.1vw;
     color: #BB0000;
     padding-right: 1.2%;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.4vw;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 700;
 }
 
 h5.search {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 42px;
+    font-size: 2.6vw;
     font-weight: 700;
     color: #BB0000;
 }
 
+h6.search {
+    font-size: .73vw;
+    background: #F7F7F7;
+}
+
+.button:hover {
+    border: 1.5px solid #BB0000;
+}
+
+.filter {
+    margin-left: 8.33%;
+    margin-bottom: 30px;
+}
+
+.button {
+    margin-right: 10px;
+    display: inline-flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+    background: #F7F7F7;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 7px;
+}
+
+.triangle {
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: center;
+    border-style: solid;
+    border-width: 9.5px 5.5px 0 5.5px;
+    border-color: #bb0000 transparent transparent transparent;
+    background: #F7F7F7;
+}
+
 .outOf {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 1.3vw;
     font-weight: 400;
     color: #7F7F7F;
     padding-left: 1px;
 }
 
 p.search {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.1vw;
 }
@@ -202,7 +231,8 @@ hr {
 .mini {
     font-weight: 300;
     font-style: italic;
-    font-size: 14px;
+    font-size: .86vw;
+    padding-top: 6px;
 }
 
 .col-12.search {
@@ -258,7 +288,6 @@ ul.nav {
 }
 
 li.nav {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.1vw;
     background-color: transparent;
@@ -270,7 +299,6 @@ li.nav {
 }
 
 h1.nav {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.8vw;
     line-height: 11px;
@@ -284,8 +312,7 @@ h1.nav {
 input.nav {
     width: 23.2%;
     height: 30px;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: .86vw;
     background-image: url(../../images/searchIcon.png);
     background-size: 14px 14px;
     background-position: 97% 50%;
@@ -304,7 +331,7 @@ input.nav {
     width: 20%;
     height: auto;
     margin-left: 1.4%;
-    font-size: 28px;
+    font-size: 1.4vw;
     line-height: 0px;
     background-color: transparent;
     /* bauer bodoni costs money :( */
@@ -324,12 +351,12 @@ input.nav {
 
 
 
-/* ---------------------------FOOTER--------------------------- */
-/* ---------------------------FOOTER--------------------------- */
+/* ----------------------------ABOUT--------------------------- */
+/* ----------------------------ABOUT--------------------------- */
 
 
-/* ---------------------------FOOTER--------------------------- */
-/* ---------------------------FOOTER--------------------------- */
+/* ----------------------------ABOUT--------------------------- */
+/* ----------------------------ABOUT--------------------------- */
 
 
 /*

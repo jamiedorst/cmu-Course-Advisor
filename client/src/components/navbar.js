@@ -24,13 +24,13 @@ Props > {
                 <h1 className="nav">Course Advisor</h1>
 
                 <ul className="nav">
-                    <li className="nav" onClick={()=>{this.changeUrl('/about')}}>About</li> 
-                    <li className="nav" onClick={()=>{this.changeUrl('/menu')}}>Browse</li>
+                    <li className="nav" onClick={()=>{window.location = '/about'}}>About</li> 
+                    <li className="nav" onClick={()=>{window.location = '/browse'}}>Browse</li>
                 </ul>
 
                 <input className="nav" type="text"/>
 
-                <img className="user" src={user} onClick={()=>{this.changeUrl('/profile')}}/>
+                <img className="user" src={user} onClick={()=>{window.location = '/profile'}}/>
             </div>
 
         </div>);

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import './css/master.css';
 
 type State = {}
@@ -11,8 +10,7 @@ class About extends Component < State, Props > {
     return (<div>
 
         <div className="col-5 landing-page">
-          <h3>about page hopefully</h3>
-          <h1>ABOUT PAGE</h1>
+          <h1 className="col-12 search">About</h1>
           <p>Learn about the courses you're interested in from the students who know best. Leave reviews for courses you've taken to help future students decide.</p>
         </div>
 
