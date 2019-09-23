@@ -8,6 +8,7 @@ type Props = {}
 class SearchResults extends Component < State, Props > {
 
     render() {
+
         return (<div>
 
             <div className="col-12 search">
@@ -17,8 +18,10 @@ class SearchResults extends Component < State, Props > {
             <hr></hr>
 
             <div className="col-7 search">
-                <h3 className="search">00-000</h3>
-                <p className="search">Probably Lengthy CMU Class Name</p>
+                <div className="title">
+                    <h3 className="search">00-000</h3>
+                    <p className="search">Probably Lengthy CMU Class Name</p>
+                </div>
                 <p className="mini">SCS: Computer Science</p>
             </div>
 
@@ -28,8 +31,7 @@ class SearchResults extends Component < State, Props > {
             </div>
 
             <div className="col-2 search">
-                <h5 className="search">4.6</h5>
-                <h6 className="search">"&#47;5"</h6>
+                <h5 className="search">4.6<span className="outOf">&#47;5</span></h5>
             </div>
 
         </div>);

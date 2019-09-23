@@ -172,11 +172,12 @@ h5.search {
     color: #BB0000;
 }
 
-h6.search {
+.outOf {
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #7F7F7F;
+    padding-left: 1px;
 }
 
 p.search {
@@ -192,6 +193,10 @@ hr {
     border: 0 none;
     height: 1px;
     background-color: #E5E5E5;
+}
+
+.title {
+    display: flex;
 }
 
 .mini {
@@ -218,7 +223,6 @@ hr {
     display: block;
     align-items: left;
     justify-content: left;
-    overflow-wrap: normal;
 }
 
 .col-2.search {
