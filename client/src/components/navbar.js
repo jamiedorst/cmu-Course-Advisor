@@ -5,8 +5,8 @@ import './css/master.css';
 import wordmark_white from '../images/CMU-white.png';
 import user from '../images/user.png';
 
-type State = {}
-type Props = {}
+type State = {};
+type Props = {};
 
 class Navbar extends Component < State,
 Props > {

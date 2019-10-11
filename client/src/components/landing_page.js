@@ -4,8 +4,8 @@ import './css/master.css';
 import wordmark_red from '../images/CMU-red.png';
 
 
-type State = {}
-type Props = {}
+type State = {};
+type Props = {};
 
 class LandingPage extends Component < State, Props > {
 

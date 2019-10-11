@@ -2,8 +2,8 @@
 import React, {Component} from 'react';
 import './css/master.css';
 
-type State = {}
-type Props = {}
+type State = {};
+type Props = {};
 
 function Results(props) {
     return(<div>
@@ -14,12 +14,12 @@ function Results(props) {
                     <h3 className="search">00-000</h3>
                     <p className="search">Probably Lengthy CMU Class Name</p>
                 </div>
-                <p className="mini">SCS: Computer Science</p>
+                <p className="mini search">SCS: Computer Science</p>
             </div>
 
             <div className="col-3 search">
                 <h4>professor one, professor two</h4>
-                <p className="mini">Offered Fall 2019</p>
+                <p className="mini search">Offered Fall 2019</p>
             </div>
 
             <div className="col-2 search">
@@ -57,7 +57,7 @@ class SearchResults extends Component < State, Props > {
             </div>
 
             <div className="col-4 sort">
-                <p className="mini">XX results sorted by <span id="sort">Best Match</span></p>
+                <p className="mini search">XX results sorted by <span id="sort">Best Match</span></p>
             </div>
 
             <div>{arr}</div>
