@@ -18,7 +18,7 @@ function Results(props) {
             </div>
 
             <div className="col-3 search">
-                <h4>professor one, professor two</h4>
+                <h4 className="search">professor one, professor two</h4>
                 <p className="mini search">Offered Fall 2019</p>
             </div>
 
@@ -60,7 +60,9 @@ class SearchResults extends Component < State, Props > {
                 <p className="mini search">XX results sorted by <span id="sort">Best Match</span></p>
             </div>
 
-            <div>{arr}</div>
+            <div onClick={()=>{window.location = '/courseDetail'}}>
+                {arr}
+            </div>
         </div>);
     }
 }

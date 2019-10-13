@@ -1,8 +1,3 @@
-/*
-Master CSS for all files
-*/
-
-
 /* ------------------------UNIVERSAL--------------------------- */
 /* ------------------------UNIVERSAL--------------------------- */
 
@@ -134,8 +129,8 @@ input.landingPage {
 
 
 
-/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
-/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
+/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
 
 h1.search {
     font-weight: 300;
@@ -147,15 +142,9 @@ h3.search {
     font-weight: 800;
     font-size: 1.1vw;
     color: #BB0000;
-    padding-right: 1.2%;
 }
 
-h2 {
-    font-weight: 300;
-    font-size: 1.4vw;
-}
-
-h4 {
+h4.search {
     font-size: 1vw;
     font-weight: 700;
 }
@@ -196,7 +185,7 @@ h6.search {
     display: inline-block;
     border-style: solid;
     border-width: 9.5px 5.5px 0 5.5px;
-    border-color: #bb0000 transparent transparent transparent;
+    border-color: #BB0000 transparent transparent transparent;
     background: #F7F7F7;
     cursor: pointer;
 }
@@ -231,6 +220,11 @@ p.mini.search {
     font-style: italic;
     font-size: .86vw;
     padding-top: 6px;
+}
+
+p.big.search {
+    font-weight: 300;
+    font-size: 1.2vw;
 }
 
 .col-12.search {
@@ -269,8 +263,202 @@ p.mini.search {
     text-decoration: underline;
 }
 
-/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
-/* -------------SEARCH RESULTS and COURSE DETAIL--------------- */
+/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
+/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
+
+
+
+
+
+/* -----------------------COURSE DETAIL------------------------ */
+/* -----------------------COURSE DETAIL------------------------ */
+
+h1.detail {
+    font-weight: 300;
+    font-size: 2.6vw;
+    margin-top: 30px;
+}
+
+h3.detail {
+    font-weight: 800;
+    font-size: 1.1vw;
+    color: #BB0000;
+}
+
+h4.detail {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+h5.detail {
+    font-size: 2.6vw;
+    font-weight: 700;
+    color: #BB0000;
+}
+
+h6.detail {
+    font-size: .73vw;
+    background: #F7F7F7;
+    cursor: pointer;
+}
+
+.button.detail:hover {
+    border: 1.5px solid #BB0000;
+}
+
+.button.detail {
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+    background: #F7F7F7;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.triangle {
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-style: solid;
+    border-width: 9.5px 5.5px 0 5.5px;
+    border-color: #BB0000 transparent transparent transparent;
+    background: #F7F7F7;
+    cursor: pointer;
+}
+
+.add {
+    margin-left: 6px;
+    display: inline-block;
+    color: #BB0000;
+    cursor: pointer;
+    background: transparent;
+}
+
+.outOf {
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #7F7F7F;
+    padding-left: 1px;
+}
+
+p.detail {
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+
+p.mini.detail {
+    font-weight: 300;
+    font-style: italic;
+    font-size: .86vw;
+    padding-top: 6px;
+}
+
+p.miniMini.detail {
+    font-weight: 300;
+    font-style: italic;
+    font-size: .75vw;
+    padding-top: 2px;
+}
+
+p.big.detail {
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+.description.header {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 0;
+    justify-content: space-between;
+}
+
+.description {
+    display: inline-block;
+}
+
+.review.header {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.review.text {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.review.content {
+    display: flex;
+    padding-top: 20px;
+}
+
+.review {
+    display: inline-block;
+}
+
+#top {
+    padding-top: 50px;
+}
+
+.left {
+    display: inline-block;
+    width: 139.9px;
+    overflow: visible;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.section.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+h4.detail.label {
+    position: absolute;
+    bottom: 0;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.col-12.detail {
+    padding-left: 8.33%;
+}
+
+.col-9.detail {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8.33%;
+}
+
+.col-3.detail {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8.33%;
+    align-content: right;
+}
+
+.col-7.detail {
+    padding-left: 8.33%;
+    padding-top: 0;
+}
+
+.col-5.detail {
+    padding-left: 8.33%;
+    padding-top: 0;
+    padding-right: 8.33%;
+}
+
+/* -----------------------COURSE DETAIL------------------------ */
+/* -----------------------COURSE DETAIL------------------------ */
 
 
 
