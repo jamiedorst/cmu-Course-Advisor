@@ -5,7 +5,7 @@ import './css/master.css';
 type State = {};
 type Props = {};
 
-class Browse extends Component < State, Props > {
+class CourseDetail extends Component < State, Props > {
 
     render() {
         return (<div>
@@ -108,25 +108,54 @@ class Browse extends Component < State, Props > {
                         </div>
                     </div>
                 </div>
+
+                <div className="review">
+                    <div className="review content">
+                        <div className="left">
+                            <h4 className="detail">Robert</h4>
+                            <p className="miniMini detail">Soph. Spring &#39;19</p>
+                            <p className="miniMini detail">Prof. Rivers</p>
+                        </div>
+                        <div className="review text">
+                            <p className="detail">112 is probably the worst thing I've ever done. Maybe
+                                                  if I had any interest whatsover in cs I'd feel
+                                                  differently but basically this sucked. Good luck.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="col-5 detail">
-                <div className="ratings header" id="top">
-                    <h3 className="detail">RATINGS</h3>
+                <div className="detail top">
+                    <div className="ratings header" id="top">
+                        <h3 className="detail">RATINGS</h3>
+                    </div>
+                    <div className="detail buttons">
+                        <div className="button detail">
+                            <h6 className="detail">ALL PROFESSORS<span className="triangle"></span></h6>
+                        </div>
+                        <div className="button detail">
+                            <h6 className="detail">ALL SEMESTERS<span className="triangle"></span></h6>
+                        </div>
+                    </div>
                 </div>
-                <div className="button detail">
-                    <h6 className="detail">ALL PROFESSORS<span className="triangle"></span></h6>
-                </div>
-                <div className="button detail">
-                    <h6 className="detail">ALL SEMESTERS<span className="triangle"></span></h6>
-                </div>
+
                 <div className="section header">
                     <h5 className="detail">4.6<span className="outOf">&#47;5</span></h5>
                     <h4 className="detail label">Overall Rating</h4>
                 </div>
+                <div id="topLine"></div>
+
+                
+                <div className="rating">
+                    <h4 className="detail smaller">Overall Teaching</h4>
+                    <h5 className="detail smaller">4.6<span className="outOf smaller">&#47;5</span></h5>
+                </div>
+                <div id="scale"></div>
+                <div className="measurement"></div>
             </div>
 
         </div>);
     }
 }
 
-export default Browse;
+export default CourseDetail;

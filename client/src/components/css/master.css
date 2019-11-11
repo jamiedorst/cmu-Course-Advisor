@@ -129,8 +129,8 @@ input.landingPage {
 
 
 
-/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
-/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
+/* ------------------SEARCH RESULTS and BROWSE----------------- */
+/* ------------------SEARCH RESULTS and BROWSE----------------- */
 
 h1.search {
     font-weight: 300;
@@ -142,6 +142,7 @@ h3.search {
     font-weight: 800;
     font-size: 1.1vw;
     color: #BB0000;
+    padding-right: 20px;
 }
 
 h4.search {
@@ -202,13 +203,15 @@ p.search {
     font-size: 1.1vw;
 }
 
-hr {
+.col-12.divider {
     width: 83.33%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0 none;
-    height: 1px;
-    background-color: #E5E5E5;
+    margin-left: 8.33%;
+    padding: 0;
+}
+
+#divider {
+    border: 0.75px solid;
+    border-color: #E5E5E5;
 }
 
 .title {
@@ -263,8 +266,8 @@ p.big.search {
     text-decoration: underline;
 }
 
-/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
-/* --------SEARCH RESULTS and COURSE DETAIL and BROWSE--------- */
+/* ------------------SEARCH RESULTS and BROWSE----------------- */
+/* ------------------SEARCH RESULTS and BROWSE----------------- */
 
 
 
@@ -300,6 +303,12 @@ h6.detail {
     font-size: .73vw;
     background: #F7F7F7;
     cursor: pointer;
+}
+
+#topLine {
+    border: 1px solid;
+    border-color: #E5E5E5;
+    width: 100%;
 }
 
 .button.detail:hover {
@@ -418,15 +427,52 @@ p.big.detail {
 
 .section.header {
     display: flex;
-    position: relative;
     justify-content: space-between;
+    align-items: flex-end;
+}
+
+.detail.buttons {
+    display: flex;
+    padding-bottom: 20px;
 }
 
 h4.detail.label {
-    position: absolute;
-    bottom: 0;
-    margin-right: 0;
-    margin-left: auto;
+    padding-bottom: 7px;
+}
+
+h4.detail.smaller {
+    font-size: .9vw;
+    padding-bottom: 5px;
+}
+
+.detail.smaller {
+    font-size: 2.1vw;
+}
+
+.outOf.smaller {
+    font-size: 1vw;
+}
+
+#scale {
+    border: 4px solid;
+    border-color: #E5E5E5;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.measurement {
+    border: 4px solid;
+    border-color: #BB0000;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-bottom: 3px;
 }
 
 .col-12.detail {

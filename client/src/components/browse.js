@@ -7,8 +7,10 @@ type Props = {};
 
 function Results(props) {
     return(<div>
-        <hr></hr>
 
+            <div className="col-12 divider">
+                <div id="divider"></div>
+            </div>
             <div className="col-7 search">
                 <div className="title">
                     <h3 className="search">00-000</h3>
