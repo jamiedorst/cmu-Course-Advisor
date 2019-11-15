@@ -1,6 +1,8 @@
 // search function
 import React, {Component} from 'react';
 import './css/master.css';
+import thumbsUp from '../images/thumbsUp.png';
+import thumbsDown from '../images/thumbsDown.png';
 
 type State = {};
 type Props = {};
@@ -148,10 +150,56 @@ class CourseDetail extends Component < State, Props > {
                 
                 <div className="rating">
                     <h4 className="detail smaller">Overall Teaching</h4>
+                    <h5 className="detail smaller">4.5<span className="outOf smaller">&#47;5</span></h5>
+                </div>
+                <div className="scale"></div>
+                <div className="measurement" id="overallTeaching"></div>
+
+                <div className="rating">
+                    <h4 className="detail smaller">Interest in Teaching</h4>
+                    <h5 className="detail smaller">4.7<span className="outOf smaller">&#47;5</span></h5>
+                </div>
+                <div className="scale"></div>
+                <div className="measurement" id="interestTeaching"></div>
+
+                <div className="rating">
+                    <h4 className="detail smaller">Goal Clarity</h4>
                     <h5 className="detail smaller">4.6<span className="outOf smaller">&#47;5</span></h5>
                 </div>
-                <div id="scale"></div>
-                <div className="measurement"></div>
+                <div className="scale"></div>
+                <div className="measurement" id="goalClarity"></div>
+
+                <div className="rating">
+                    <h4 className="detail smaller">Quality of Feedback</h4>
+                    <h5 className="detail smaller">4.4<span className="outOf smaller">&#47;5</span></h5>
+                </div>
+                <div className="scale"></div>
+                <div className="measurement" id="qualityFeedback"></div>
+
+                <div className="section header" id="spacer">
+                    <h5 className="detail">18.5<span className="outOf">&#47;12</span></h5>
+                    <h4 className="detail label">Hours per Week</h4>
+                </div>
+
+                <div className="tagsSection">
+                    <h4 className="detail smaller">What people liked...</h4>
+                </div>
+                <div>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsUp}/></span>RESPECTED</h6>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsUp}/></span>GOOD LECTURES</h6>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsUp}/></span>FUNNY</h6>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsUp}/></span>EXTRA CREDIT</h6>
+                </div>
+
+                <div className="tagsSection">
+                    <h4 className="detail smaller">What people didn't like...</h4>
+                </div>
+                <div>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsDown}/></span>LOTS OF HOMEWORK</h6>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsDown}/></span>TOUGH GRADER</h6>
+                    <h6 className="tags"><span className="thumb"><img className="thumbs" src={thumbsDown}/></span>NO SKIPPING CLASS</h6>
+                </div>
+
             </div>
 
         </div>);

@@ -21,7 +21,7 @@ class LandingPage extends Component < State, Props > {
                 <img className="wordmark_red" src={wordmark_red} onError="this.style.borderWidth=0" alt="Carnegie Mellon University" />
                 <h1 className="landingPage">Course Advisor</h1>
                 <p className="landingPage">Learn about the courses you're interested in from the students who know best. Leave reviews for courses you've taken to help future students decide.</p>
-                <p id="faded">Prefer to browse&#63; Click <a id="inLineLink" href="http://www.codecademy.com/">here</a> to look at the course catalog.</p>
+                <p id="faded">Prefer to browse&#63; Click <a id="inLineLink" onClick={()=>{window.location = '/browse'}}>here</a> to look at the course catalog.</p>
                 <li onClick={()=>{window.location = '/searchResults'}}>temporary search results page</li>
             </div>
 

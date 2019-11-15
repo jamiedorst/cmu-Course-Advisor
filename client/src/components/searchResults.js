@@ -57,6 +57,9 @@ class SearchResults extends Component < State, Props > {
                 <div className="button">
                     <h6 className="search">ALL DEPARTMENTS<span className="triangle"></span></h6>
                 </div>
+                <div className="button">
+                    <h6 className="search">ALL UNITS<span className="triangle"></span></h6>
+                </div>
             </div>
 
             <div className="col-4 sort">

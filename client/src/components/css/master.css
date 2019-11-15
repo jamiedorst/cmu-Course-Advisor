@@ -129,8 +129,8 @@ input.landingPage {
 
 
 
-/* ------------------SEARCH RESULTS and BROWSE----------------- */
-/* ------------------SEARCH RESULTS and BROWSE----------------- */
+/* ------------------------SEARCH RESULTS---------------------- */
+/* ------------------------SEARCH RESULTS---------------------- */
 
 h1.search {
     font-weight: 300;
@@ -266,8 +266,71 @@ p.big.search {
     text-decoration: underline;
 }
 
-/* ------------------SEARCH RESULTS and BROWSE----------------- */
-/* ------------------SEARCH RESULTS and BROWSE----------------- */
+/* ------------------------SEARCH RESULTS---------------------- */
+/* ------------------------SEARCH RESULTS---------------------- */
+
+
+
+
+/* ----------------------------BROWSE-------------------------- */
+/* ----------------------------BROWSE-------------------------- */
+
+h1.browse {
+    font-weight: 800;
+    font-size: 0.8vw;
+    color: #D8D8D8;
+}
+
+h2.browse {
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+h3.browse {
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+#school {
+    padding-right: 20px;
+}
+
+#course {
+    padding-right: 20px;
+}
+
+#title {
+    padding-right: 485px;
+}
+
+#instructors {
+    padding-right: 140px;
+}
+
+#semester {
+    padding-right: 50px;
+}
+
+.col-12.browse {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    padding-bottom: 3px;
+    padding-top: 0px;
+}
+
+.col-12.titles {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8.33%;
+    padding-right: 8.33%;
+    padding-bottom: 3px;
+    padding-top: 0px;
+}
+
+/* ----------------------------BROWSE-------------------------- */
+/* ----------------------------BROWSE-------------------------- */
 
 
 
@@ -305,6 +368,28 @@ h6.detail {
     cursor: pointer;
 }
 
+.tagsSection {
+    margin-top: 20px;
+}
+
+.tags {
+    background-color: #F7F7F7;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 7px;
+    font-size: .73vw;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.thumb {
+    background: #F7F7F7;
+}
+
 #topLine {
     border: 1px solid;
     border-color: #E5E5E5;
@@ -339,6 +424,14 @@ h6.detail {
     border-color: #BB0000 transparent transparent transparent;
     background: #F7F7F7;
     cursor: pointer;
+}
+
+.thumbs {
+    margin-right: 6px;
+    width: 11px;
+    height: auto;
+    display: inline-block;
+    background: #F7F7F7;
 }
 
 .add {
@@ -453,7 +546,7 @@ h4.detail.smaller {
     font-size: 1vw;
 }
 
-#scale {
+.scale {
     border: 4px solid;
     border-color: #E5E5E5;
     border-radius: 4px;
@@ -464,7 +557,27 @@ h4.detail.smaller {
     border: 4px solid;
     border-color: #BB0000;
     border-radius: 4px;
-    width: 80%;
+    margin-top: -8px;
+}
+
+#overallTeaching {
+    width: 90%;
+}
+
+#interestTeaching {
+    width: 94%;
+}
+
+#goalClarity {
+    width: 92%;
+}
+
+#qualityFeedback {
+    width: 88%;
+}
+
+#spacer {
+    margin-top: 20px;
 }
 
 .rating {
@@ -537,6 +650,7 @@ li.nav {
     list-style-type: none;
     text-align: center;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 h1.nav {
@@ -548,6 +662,7 @@ h1.nav {
     color: #FFFFFF;
     background-color: transparent;
     text-align: center;
+    cursor: pointer;
 }
 
 input.nav {
@@ -575,6 +690,7 @@ input.nav {
     font-size: 1.4vw;
     line-height: 0px;
     background-color: transparent;
+    cursor: pointer;
     /* bauer bodoni costs money :( */
 }
 
@@ -583,6 +699,7 @@ input.nav {
     height: auto;
     background-color: transparent;
     margin-right: 1.4%;
+    cursor: pointer;
 }
 
 /* ---------------------------NAVBAR--------------------------- */
