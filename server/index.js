@@ -7,6 +7,8 @@ const mongoose = require('mongoose');
 // TODO: Unsure what this is doing
 const passport = require('passport');
 const session = require('express-session');
+const db = require('./db')
+
 const MongoStore = require('connect-mongo')(session);
 const flash = require('connect-flash');
 
@@ -43,20 +45,30 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
+// TODO: In starter code but unsure if this is needed. 
+// app.use(cors()
+
 require('./routes/router.js')(app);
 require('./services/passport')(passport);
 
-mongoose.connect('mongodb://localhost:27017/oasis', {
-  useNewUrlParser: true
-});
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-mongoose.set('useCreateIndex', true);
-const db = mongoose.connection;
 
-// console.log(process.env.PROD);
+// Moved logic to server/db/index.js
+// mongoose.connect('mongodb://localhost:27017/oasis', {
+//   useNewUrlParser: true
+// });
+
+// mongoose.set('useCreateIndex', true);
+// const db = mongoose.connection;
+
+// // console.log(process.env.PROD);
 server.listen(port, () => {
   console.log('Example app listening on port 5000!');
 });
+
+
+
 
 
 
