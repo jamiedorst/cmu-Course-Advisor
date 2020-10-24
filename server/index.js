@@ -62,7 +62,6 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 // mongoose.set('useCreateIndex', true);
 // const db = mongoose.connection;
 
-// // console.log(process.env.PROD);
 server.listen(port, () => {
   console.log('Example app listening on port 5000!');
 });

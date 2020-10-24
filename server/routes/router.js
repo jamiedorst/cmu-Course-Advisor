@@ -5,6 +5,8 @@ const url = require('url');
 
 const router = express.Router();
 const User = require('../models/schema.js');
+
+const courseController = require('../controllers/courseController')
 const axios = require('axios');
 
 function createError(path, status, error) {
@@ -17,6 +19,8 @@ function createError(path, status, error) {
   });
 }
 
+
+// TODO: We will need to look over this authentication code - since at this point we are unsure we actually need to authenticate and whether we should keep things anonymous
 module.exports = app => {
   app.post('/api/login', (req, res, done) => {
     passport.authenticate('local', function (err, user, info) {
@@ -99,4 +103,11 @@ module.exports = app => {
     res.sendFile(path.join(__dirname +'/../src/html/index2.html'));
   });
 
+  // CRUD operations for CourseInfo 
+  //TODO: Paths may be a little off since the current system uses template filler code
+  app.post('/course', courseController.createCourse) // might not be used since we default scrape and display 
+  app.put('/course/:id', courseController.updateCourse) // UPDATE change
+  app.delete('/course/:id', courseController.delteCourse)
+  app.get('/course/:id', courseController.getCourseById) // index GET
+  app.get('/courses', courseController.getCourses) // list GET
 };
