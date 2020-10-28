@@ -77,7 +77,7 @@ updateCourse = async (req, res) => {
     })
 }
 
-deleteMovie = async (req, res) => {
+deleteCourse = async (req, res) => {
     await CourseInfo.findOneAndDelete({ _id: req.params.id }, (err, course) => {
         if (err) {
             return res.status(400).json({ success: false, error: err })
