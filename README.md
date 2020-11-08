@@ -10,8 +10,12 @@ To run the application for developing purposes:
 
 Database:
 
-For Andy:
-sudo mongod --dbpath data/db
+(Before you do this you need to have mongo installed)
+sudo mongod --dbpath=< Mongo data/db path > (this creates a mongo server shell)
+mongo (creates a mongo shell - this is what you use to actually add/update/delete/read from db)
+
+For consistency you should name your mongo shell: "cmu_course_advisor"
+Do this by entering: using "cmu_course_advisor" in the mongo shell.
 
 Server:
 1. Launch the server first by changing the directory so that you are in server ../cmu-Course-Advisor/server
