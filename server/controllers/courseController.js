@@ -11,7 +11,7 @@ createCourse = (req, res) => {
     }
 
     const course = new CourseInfo(body)
-
+C
     if (!course) {
         return res.status(400).json({ success: false, error: err })
     }
