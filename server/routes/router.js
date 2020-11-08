@@ -107,7 +107,7 @@ module.exports = app => {
   //TODO: Paths may be a little off since the current system uses template filler code
   app.post('/course', courseController.createCourse) // might not be used since we default scrape and display 
   app.put('/course/:id', courseController.updateCourse) // UPDATE change
-  app.delete('/course/:id', courseController.delteCourse)
+  app.delete('/course/:id', courseController.deleteCourse)
   app.get('/course/:id', courseController.getCourseById) // index GET
   app.get('/courses', courseController.getCourses) // list GET
 };

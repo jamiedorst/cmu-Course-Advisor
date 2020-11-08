@@ -1,36 +1,32 @@
 'use strict'
 
-const BB = require('bluebird')
-
-const npmConfig = require('./config/figgy-config.js')
-const fetch = require('libnpm/fetch')
-const figgyPudding = require('figgy-pudding')
+const npm = require('./npm.js')
+const fetch = require('npm-registry-fetch')
 const otplease = require('./utils/otplease.js')
-const npa = require('libnpm/parse-arg')
+const npa = require('npm-package-arg')
 const semver = require('semver')
-const whoami = require('./whoami.js')
-
-const DeprecateConfig = figgyPudding({})
+const getItentity = require('./utils/get-identity')
 
 module.exports = deprecate
 
 deprecate.usage = 'npm deprecate <pkg>[@<version>] <message>'
 
 deprecate.completion = function (opts, cb) {
-  return BB.try(() => {
-    if (opts.conf.argv.remain.length > 2) { return }
-    return whoami([], true, () => {}).then(username => {
+  return Promise.resolve().then(() => {
+    if (opts.conf.argv.remain.length > 2)
+      return
+    return getItentity(npm.flatOptions).then(username => {
       if (username) {
         // first, get a list of remote packages this user owns.
         // once we have a user account, then don't complete anything.
         // get the list of packages by user
         return fetch(
           `/-/by-user/${encodeURIComponent(username)}`,
-          DeprecateConfig()
+          npm.flatOptions
         ).then(list => list[username])
       }
     })
-  }).nodeify(cb)
+  }).then(() => cb(), er => cb(er))
 }
 
 function deprecate ([pkg, msg], opts, cb) {
@@ -38,9 +34,10 @@ function deprecate ([pkg, msg], opts, cb) {
     cb = opts
     opts = null
   }
-  opts = DeprecateConfig(opts || npmConfig())
-  return BB.try(() => {
-    if (msg == null) throw new Error(`Usage: ${deprecate.usage}`)
+  opts = opts || npm.flatOptions
+  return Promise.resolve().then(() => {
+    if (msg == null)
+      throw new Error(`Usage: ${deprecate.usage}`)
     // fetch the data and make sure it exists.
     const p = npa(pkg)
 
@@ -48,25 +45,28 @@ function deprecate ([pkg, msg], opts, cb) {
     // "*" is the appropriate default.
     const spec = p.rawSpec === '' ? '*' : p.fetchSpec
 
-    if (semver.validRange(spec, true) === null) {
+    if (semver.validRange(spec, true) === null)
       throw new Error('invalid version range: ' + spec)
-    }
 
     const uri = '/' + p.escapedName
-    return fetch.json(uri, opts.concat({
+    return fetch.json(uri, {
+      ...opts,
       spec: p,
-      query: {write: true}
-    })).then(packument => {
+      query: { write: true },
+    }).then(packument => {
       // filter all the versions that match
       Object.keys(packument.versions)
         .filter(v => semver.satisfies(v, spec))
-        .forEach(v => { packument.versions[v].deprecated = msg })
-      return otplease(opts, opts => fetch(uri, opts.concat({
+        .forEach(v => {
+          packument.versions[v].deprecated = msg
+        })
+      return otplease(opts, opts => fetch(uri, {
+        ...opts,
         spec: p,
         method: 'PUT',
         body: packument,
-        ignoreBody: true
-      })))
+        ignoreBody: true,
+      }))
     })
-  }).nodeify(cb)
+  }).then(() => cb(), cb)
 }

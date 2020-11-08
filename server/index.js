@@ -46,7 +46,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // TODO: In starter code but unsure if this is needed. 
-// app.use(cors()
+var cors = require('cors')
+app.use(cors()) 
 
 require('./routes/router.js')(app);
 require('./services/passport')(passport);

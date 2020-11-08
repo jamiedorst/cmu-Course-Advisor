@@ -3,17 +3,38 @@ import React, {Component} from 'react';
 import './css/master.css';
 import thumbsUp from '../images/thumbsUp.png';
 import thumbsDown from '../images/thumbsDown.png';
+import api from '../api'
 
-type State = {};
-type Props = {};
+class CourseDetail extends Component {
 
-class CourseDetail extends Component < State, Props > {
+    constructor(props) {
+        super(props)
+        
+        this.state = {
+            courseTitle: "",
+            isLoading: false,
+        }
+        
+    }
+
+    componentDidMount = async () => {
+        this.setState({ isLoading: true })
+
+        await api.getCourseById("5fa6448bd922313cfbe74076").then(course => {
+            console.log(course);
+            this.setState({
+                courseTitle: course.data.data.name,
+                isLoading: false,
+            })
+        })
+    }
 
     render() {
+        const { courseTitle, isLoading } = this.state
         return (<div>
 
             <div className="col-12 detail">
-                <h1 className="about">Fundamentals of Programming and Computer Science</h1>
+                <h1 className="about">Title: {courseTitle}</h1>
             </div>
 
             <div className="col-9 detail">
