@@ -108,7 +108,6 @@ getCourseById = async (req, res) => {
     }).catch(err => console.log(err))
 }
 
-
 getCourses = async (req, res) => {
     await CourseInfo.find({}, (err, courses) => {
         if (err) {
