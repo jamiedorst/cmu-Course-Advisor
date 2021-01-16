@@ -1,4 +1,7 @@
 'use strict';
+
+import db from '/db/index.js'
+
 // Base Code
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -52,16 +55,8 @@ app.use(cors())
 require('./routes/router.js')(app);
 require('./services/passport')(passport);
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
-
-
-// Moved logic to server/db/index.js
-// mongoose.connect('mongodb://localhost:27017/oasis', {
-//   useNewUrlParser: true
-// });
-
-// mongoose.set('useCreateIndex', true);
-// const db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+db()
 
 server.listen(port, () => {
   console.log('Example app listening on port 5000!');

@@ -21,7 +21,7 @@ class CourseDetail extends Component {
         this.setState({ isLoading: true })
 
         await api.getCourseById("5fa6448bd922313cfbe74076").then(course => {
-            console.log(course);
+            console.log(course.data.data.name);
             this.setState({
                 courseTitle: course.data.data.name,
                 isLoading: false,

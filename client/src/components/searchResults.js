@@ -1,6 +1,8 @@
 // search function
 import React, { Component } from "react";
 import "./css/master.css";
+import api from '../api'
+
 
 type State = {};
 type Props = {};
@@ -32,19 +34,31 @@ function Results(props) {
     </div>
   );
 }
-
 class SearchResults extends Component<State, Props> {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+        courses: [],
+        isLoading: false
+    }
+  }
+
+  componentDidMount = async () => {
+    this.setState({ isLoading: true })
+
+    await api.getAllCourses().then(courses => {
+        this.setState({
+            courses: courses.data.data,
+            isLoading: false,
+        })
+    })
+  }
+
   render() {
-    let arr = [
-      <Results />,
-      <Results />,
-      <Results />,
-      <Results />,
-      <Results />,
-      <Results />,
-      <Results />,
-      <Results />,
-    ];
+    // populate the list of courses. 
+    // 1. Loop through each element and put value into result
+    let arr = this.state.courses
 
     return (
       <div>
