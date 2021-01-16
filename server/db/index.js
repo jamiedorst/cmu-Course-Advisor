@@ -3,8 +3,8 @@ import mongoose from 'mongoose'
 const db = async () => {
     try {
         //database Name
-        const databaseName='demomern';
-        const con = await mongoose.connect(`mongodb://127.0.0.1:27017/cmu_course_advisor`, { 
+        const databaseName='cmu_courses';
+        const con = await mongoose.connect(`mongodb://127.0.0.1:27017/${databaseName}`, { 
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
