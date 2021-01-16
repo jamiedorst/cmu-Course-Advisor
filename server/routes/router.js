@@ -99,9 +99,9 @@ module.exports = app => {
   //   });
   // });
 
-  app.get('/api/app', loggedIn,(req, res) => {
-    res.sendFile(path.join(__dirname +'/../src/html/index2.html'));
-  });
+  // app.get('/api/app', loggedIn,(req, res) => {
+  //   res.sendFile(path.join(__dirname +'/../src/html/index2.html'));
+  // });
 
   // CRUD operations for CourseInfo 
   //TODO: Paths may be a little off since the current system uses template filler code

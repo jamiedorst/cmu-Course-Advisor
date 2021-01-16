@@ -1,11 +1,9 @@
-// initialize a package.json file
+const initJson = require('init-package-json')
+const npa = require('npm-package-arg')
 
+const npm = require('./npm.js')
 const usageUtil = require('./utils/usage.js')
 const completion = require('./utils/completion/none.js')
-
-const npa = require('npm-package-arg')
-const npm = require('./npm.js')
-const initJson = require('init-package-json')
 const output = require('./utils/output.js')
 
 const usage = usageUtil(
@@ -43,9 +41,9 @@ const init = async args => {
       }
     }
     npm.config.set('package', [])
-    npm.flatOptions = { ...npm.flatOptions, package: [] }
+    const newArgs = [packageName, ...args.slice(1)]
     return new Promise((res, rej) => {
-      npm.commands.exec([packageName, ...args.slice(1)], er => er ? rej(er) : res())
+      npm.commands.exec(newArgs, er => er ? rej(er) : res())
     })
   }
 
@@ -78,11 +76,12 @@ const init = async args => {
         npm.log.warn('init', 'canceled')
         return res()
       }
-      npm.log.info('init', 'written successfully')
       if (er)
         rej(er)
-      else
+      else {
+        npm.log.info('init', 'written successfully')
         res(data)
+      }
     })
   })
 }

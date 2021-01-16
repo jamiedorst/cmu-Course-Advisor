@@ -1,22 +1,27 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose');
+const MongoClient = require('mongodb').MongoClient;
 
-const db = async () => {
+
+const connectDB = async () => {
     try {
         //database Name
-        const databaseName='cmu_courses';
-        const con = await mongoose.connect(`mongodb://127.0.0.1:27017/${databaseName}`, { 
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true
-    });
+        const databaseName='cmu_courses';   
+
+        const uri = "mongodb+srv://6f5fbc4530c8429662a2fb866d79d714:cmucourseadvisor@cluster0.hoxvk.mongodb.net/cmu_courses?retryWrites=true&w=majority";
+        const client = new MongoClient(uri, { useNewUrlParser: true });
+
+        const con = await mongoose.connect(uri, { 
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true
+        });
         console.log(`Database connected : ${con.connection.host}`)
     } catch (error) {
         console.error(`Error: ${error.message}`)
         process.exit(1)
     }
 }
-
-export default db
+module.exports = connectDB
 
 
 //TODO: PREVIOUS - First attempt at trying to connect cluster db. If test passes, the following can be deleted

@@ -20,7 +20,7 @@ const checkPing = async () => {
     if (/^E\d{3}$/.test(er.code || ''))
       throw er.code.substr(1) + ' ' + er.message
     else
-      throw er
+      throw er.message
   } finally {
     tracker.finish()
   }
@@ -59,7 +59,8 @@ const getLatestNodejsVersion = async () => {
       if (lts && semver.gt(version, maxLTS))
         maxLTS = version
 
-      if (semver.satisfies(version, currentRange) && semver.gt(version, maxCurrent))
+      if (semver.satisfies(version, currentRange) &&
+          semver.gt(version, maxCurrent))
         maxCurrent = version
     }
     const recommended = semver.gt(maxCurrent, maxLTS) ? maxCurrent : maxLTS
@@ -92,7 +93,7 @@ const lstat = promisify(fs.lstat)
 const readdir = promisify(fs.readdir)
 const access = promisify(fs.access)
 const isWindows = require('./utils/is-windows.js')
-const checkFilesPermission = async (root, shouldOwn = true, mask = null) => {
+const checkFilesPermission = async (root, shouldOwn, mask = null) => {
   if (mask === null)
     mask = shouldOwn ? R_OK | W_OK : R_OK
 
@@ -175,7 +176,12 @@ const verifyCachedFiles = async () => {
   tracker.info('verifyCachedFiles', 'Verifying the npm cache')
   try {
     const stats = await cacache.verify(npm.flatOptions.cache)
-    const { badContentCount, reclaimedCount, missingContent, reclaimedSize } = stats
+    const {
+      badContentCount,
+      reclaimedCount,
+      missingContent,
+      reclaimedSize,
+    } = stats
     if (badContentCount || reclaimedCount || missingContent) {
       if (badContentCount)
         tracker.warn('verifyCachedFiles', `Corrupted content removed: ${badContentCount}`)
