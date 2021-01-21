@@ -11,7 +11,7 @@ createCourse = (req, res) => {
     }
 
     const course = new CourseInfo(body)
-C
+
     if (!course) {
         return res.status(400).json({ success: false, error: err })
     }
@@ -128,4 +128,24 @@ module.exports = {
     deleteCourse,
     getCourses,
     getCourseById,
+}
+
+{
+    "year":2020,
+    "sem":"Spring",
+    "division":"Heinz College",
+    "dept" :"AEM",
+    "num" :93717,
+    "course_name":"WRTG CREAT INDUS",
+    "course_level":"Graduate",
+    "hrs_per_week":5.71,
+    "interest_in_student_learning":4,
+    "clear_course_requirements":3.94,
+    "clear_learning_objectives ":4.12,
+    "provides_feedback":3.59,
+    "demonstrate_importance_of_subject_matter":4.06,
+    "explains_subject_matter":4,
+    "respect_for_students":4.29,
+    "overall_teaching_rate":3.94,
+    "overall_course_rate":3.12
 }

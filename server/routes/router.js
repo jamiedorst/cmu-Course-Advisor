@@ -19,6 +19,13 @@ const axios = require('axios');
 //   });
 // }
 
+// router.post('/course', courseController.createCourse) // might not be used since we default scrape and display 
+// router.put('/course/:id', courseController.updateCourse) // UPDATE change
+// router.delete('/course/:id', courseController.deleteCourse)
+// router.get('/course/:id', courseController.getCourseById) // index GET
+// router.get('/courses', courseController.getCourses) // list GET
+
+// module.exports = router;
 
 // TODO: We will need to look over this authentication code - since at this point we are unsure we actually need to authenticate and whether we should keep things anonymous
 module.exports = app => {

@@ -22,12 +22,15 @@ connectDB()
 const app = express();
 const port = process.env.PORT || 5000;
 
-
-require('./routes/router.js')(app);
-require('./services/passport')(passport);
-
 app.use(cors())
 app.use(express.json())
+
+require('./routes/router.js') (app);
+
+// TODO: do we need this?
+require('./services/passport')(passport);
+
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
