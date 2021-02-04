@@ -20,10 +20,10 @@ class CourseDetail extends Component {
     componentDidMount = async () => {
         this.setState({ isLoading: true })
 
-        await api.getCourseById("5fa6448bd922313cfbe74076").then(course => {
-            console.log(course.data.data.name);
+        await api.getCourseById("6007c134bfd41c18c8d9b65d").then(course => {
+            console.log(course);
             this.setState({
-                courseTitle: course.data.data.name,
+                courseTitle: course.data.data.course_name,
                 isLoading: false,
             })
         })

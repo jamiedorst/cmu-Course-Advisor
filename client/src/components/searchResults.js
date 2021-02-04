@@ -39,21 +39,21 @@ class SearchResults extends Component<State, Props> {
   constructor(props) {
     super(props)
     this.state = {
-        courses: [],
+        courses: [<Results/>, <Results/>, <Results/>, <Results/>],
         isLoading: false
     }
   }
 
-  componentDidMount = async () => {
-    this.setState({ isLoading: true })
+  // componentDidMount = async () => {
+  //   this.setState({ isLoading: true })
 
-    await api.getAllCourses().then(courses => {
-        this.setState({
-            courses: courses.data.data,
-            isLoading: false,
-        })
-    })
-  }
+  //   await api.getAllCourses().then(courses => {
+  //       this.setState({
+  //           courses: courses.data.data,
+  //           isLoading: false,
+  //       })
+  //   })
+  // }
 
   render() {
     // populate the list of courses. 
