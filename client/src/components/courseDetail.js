@@ -21,8 +21,8 @@ class CourseDetail extends Component {
         this.setState({ isLoading: true })
 
         await api.getCourseById("6007c134bfd41c18c8d9b65d").then(course => {
-            console.log("THIS IS MY DATA LOOK HERE")
-            console.log(course.data.data.overall_teaching_rate);
+            // console.log("THIS IS MY DATA LOOK HERE")
+            // console.log(course.data.data.overall_teaching_rate);
             this.setState({
                 year: course.data.data.year,
                 semester: course.data.data.sem,
