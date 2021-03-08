@@ -1,0 +1,301 @@
+year,sem,division,dept,num,course_name,course_level,hrs_per_week,interest_in_student_learning,clear_course_requirements,clear_learning_objectives,provides_feedback,demonstrate_importance_of_subject_matter,explains_subject_matter,respect_for_students,overall_teaching_rate,overall_course_rate
+2020,Spring,Heinz College,AEM,93717,WRTG CREAT INDUS,Graduate,5.71,4.00,3.94,4.12,3.59,4.06,4.00,4.29,3.94,3.12
+2020,Fall,Heinz College,AEM,93717,WRTG CREAT INDUS,Graduate,8.00,4.40,4.07,4.53,4.40,4.53,4.27,4.33,4.00,4.13
+2020,Spring,Heinz College,AEM,93732,DB THRY PRC CRTV ENT,Graduate,9.23,4.68,4.73,4.77,4.50,4.73,4.73,4.86,4.77,4.68
+2020,Spring,Heinz College,AEM,93804,ARTS IN EDUCATION,Graduate,6.80,4.00,4.40,4.40,4.40,4.60,4.40,4.60,4.20,4.00
+2020,Spring,Heinz College,AEM,93807,MUSEUM OPERATIONS,Graduate,7.00,4.92,4.67,4.67,4.67,4.75,4.50,5.00,4.50,4.17
+2020,Fall,Heinz College,AEM,93807,MUSEUM OPERATIONS,Graduate,7.40,5.00,5.00,4.93,5.00,5.00,5.00,5.00,4.93,4.93
+2020,Fall,Heinz College,AEM,93811,PRD PERF ART SEASON,Graduate,7.00,4.95,4.10,4.57,4.62,4.90,4.52,5.00,4.57,4.67
+2020,Spring,Heinz College,AEM,93812,PRES PERF ART & FEST,Graduate,6.75,3.67,2.92,3.50,3.67,4.25,4.00,4.83,3.42,3.33
+2020,Spring,Heinz College,AEM,93815,AUD ENGAGEMNT & PART,Graduate,5.79,4.84,3.74,4.58,4.32,4.84,4.68,4.89,4.74,4.63
+2020,Spring,Heinz College,AEM,93821,EXT REL: ARTS MKT PR,Graduate,8.15,4.59,3.56,4.07,3.85,4.67,4.22,4.74,4.37,4.11
+2020,Spring,Heinz College,AEM,93826,EXT REL: FUN IND GIV,Graduate,5.78,4.22,3.78,3.87,3.52,4.26,3.87,4.61,3.74,3.65
+2020,Spring,Heinz College,AEM,93827,EXT REL: FUN INS GIV,Graduate,6.65,4.90,4.75,4.85,4.55,4.65,4.65,4.80,4.55,4.65
+2020,Fall,Heinz College,AEM,93832,ARTS & COMM DEV,Graduate,8.60,5.00,4.87,4.87,4.73,4.87,4.80,4.93,4.93,4.87
+2020,Spring,Heinz College,AEM,93844,LIVE MUS TOUR REV ST,Graduate,10.14,4.29,3.43,4.00,3.14,3.86,3.86,5.00,3.86,3.14
+2020,Spring,Heinz College,AEM,93846,CULTURAL PLCY ADVCY,Graduate,10.25,5.00,5.00,5.00,5.00,5.00,4.75,5.00,4.75,4.75
+2020,Spring,College of Fine Arts,ARC,48026,FRST YR SEM:ARCH ED,Undergraduate,4.43,4.29,4.29,4.33,3.71,4.00,3.95,4.48,3.90,3.67
+2020,Spring,College of Fine Arts,ARC,48105,ARC DSGN STU: FDT II,Undergraduate,24.47,4.28,4.14,4.14,4.16,4.33,4.15,3.97,4.00,4.11
+2020,Spring,College of Fine Arts,ARC,48205,ARC DSGN STU: EL II,Undergraduate,23.17,4.44,4.15,4.00,4.10,4.20,4.15,4.32,4.12,4.17
+2020,Spring,College of Fine Arts,ARC,48240,HIS SRVY WLD ARC URB,Undergraduate,6.67,4.71,4.53,4.51,3.93,4.60,4.49,4.84,4.58,4.40
+2020,Spring,College of Fine Arts,ARC,48241,MOD ARCH,Undergraduate,8.27,4.00,4.05,4.09,3.14,4.18,4.00,4.05,3.59,3.68
+2020,Spring,College of Fine Arts,ARC,48305,ARC DSGN STU:INT II,Undergraduate,20.39,4.59,4.33,4.43,4.43,4.50,4.50,4.48,4.39,4.35
+2020,Spring,College of Fine Arts,ARC,48324,STRU/STAT,Undergraduate,7.29,4.41,4.41,4.29,3.76,4.35,4.24,4.53,4.24,4.00
+2020,Spring,College of Fine Arts,ARC,48328,DETAILG ARCHITECTURE,Undergraduate,5.75,5.00,4.33,4.33,4.67,5.00,4.67,4.33,4.67,4.67
+2020,Spring,College of Fine Arts,ARC,48332,ARCH EXPL: TCHG LRNG,Undergraduate,7.00,5.00,4.67,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48350,POSTWAR MDN ARCH THY,Undergraduate,9.00,5.00,4.67,4.67,5.00,5.00,5.00,5.00,5.00,4.67
+2020,Spring,College of Fine Arts,ARC,48357,ANATOMY & ORGANC FRM,Undergraduate,6.09,4.91,4.36,4.55,4.55,4.45,4.73,5.00,4.82,4.64
+2020,Spring,College of Fine Arts,ARC,48358,EARTHEN BUILDING,Undergraduate,8.60,4.80,4.60,4.60,4.80,4.60,4.40,5.00,4.20,4.20
+2020,Spring,College of Fine Arts,ARC,48359,SOLAR DECATHLON SYST,Undergraduate,7.00,4.17,3.17,3.60,3.20,3.40,3.33,5.00,3.33,3.33
+2020,Spring,College of Fine Arts,ARC,48368,RD AN:TRV ARH ARC MD,Undergraduate,5.33,5.00,4.22,4.33,4.78,4.67,4.44,4.78,4.22,4.33
+2020,Spring,College of Fine Arts,ARC,48380,REAL ESTATE,Undergraduate,6.71,4.86,4.71,4.86,4.86,4.86,4.86,4.86,4.86,4.57
+2020,Spring,College of Fine Arts,ARC,48410,ASOS II,Undergraduate,22.48,4.87,4.42,4.45,4.61,4.77,4.65,4.90,4.68,4.77
+2020,Spring,College of Fine Arts,ARC,48434,MESOAM & SP ARC,Undergraduate,8.00,5.00,4.80,4.70,4.50,4.60,4.80,5.00,4.90,4.80
+2020,Spring,College of Fine Arts,ARC,48442,HIST ASIAN ARCH,Undergraduate,6.64,4.82,4.82,4.55,4.64,4.82,4.64,4.91,4.73,4.64
+2020,Spring,College of Fine Arts,ARC,48473,HND MCHN JNRY NEW DR,Undergraduate,10.00,4.67,3.67,4.33,4.33,3.67,4.00,3.67,4.00,4.33
+2020,Spring,College of Fine Arts,ARC,48484,KALLA ELECTIVE,Undergraduate,8.00,5.00,4.20,4.70,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48497,PRE-THESIS,Undergraduate,4.33,4.89,4.78,4.78,4.67,4.89,4.33,4.89,4.89,4.33
+2020,Spring,College of Fine Arts,ARC,48510,ASOS IV,Undergraduate,20.92,4.67,4.58,4.58,4.75,4.58,4.50,5.00,4.50,4.83
+2020,Spring,College of Fine Arts,ARC,48519,ARC STUDIO: TH II/IP,Undergraduate,25.50,3.75,3.50,3.50,3.58,4.00,3.67,3.92,3.67,3.67
+2020,Spring,College of Fine Arts,ARC,48530,HUMAN-MACH VIRT,Undergraduate,10.00,4.42,4.42,4.25,4.17,3.92,4.08,4.83,4.42,4.17
+2020,Spring,College of Fine Arts,ARC,48538,AESTHETICS & MULTI M,Undergraduate,7.00,4.67,4.33,4.33,4.67,4.67,4.33,4.67,4.67,4.67
+2020,Spring,College of Fine Arts,ARC,48545,DES FAB,Undergraduate,13.00,4.00,4.33,4.00,4.00,4.33,4.33,4.33,3.67,3.67
+2020,Spring,College of Fine Arts,ARC,48555,INTRO ARC ROBO,Undergraduate,7.40,4.60,4.20,4.60,4.40,4.40,4.60,5.00,4.60,4.80
+2020,Spring,College of Fine Arts,ARC,48559,REAL CMP,Undergraduate,9.00,4.67,4.33,4.33,4.33,5.00,4.33,5.00,4.33,4.33
+2020,Spring,College of Fine Arts,ARC,48569,GIS CAFM,Undergraduate,8.00,4.33,4.78,4.78,4.56,4.89,4.56,5.00,4.56,4.33
+2020,Spring,College of Fine Arts,ARC,48587,ARCH LIGHTING DESIGN,Undergraduate,8.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Fall,College of Fine Arts,ARC,48591,DIG TOOL MICRO,Undergraduate,5.63,4.58,4.74,4.58,4.16,4.74,4.63,4.74,4.53,4.42
+2020,Summer,College of Fine Arts,ARC,48600,ASOS GENERAL,Graduate,27.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,4.25
+2020,Spring,College of Fine Arts,ARC,48637,STRUC/STAT GRAD,Graduate,7.25,4.75,4.75,4.50,4.75,4.75,4.50,4.75,4.75,4.50
+2020,Spring,College of Fine Arts,ARC,48640,MARCHSTUDIO INTEG II,Graduate,21.14,4.64,4.43,4.50,4.71,4.29,4.29,4.79,4.71,4.50
+2020,Spring,College of Fine Arts,ARC,48644,MARCH PRE-THESIS,Graduate,4.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48658,REDD MARCH,Graduate,7.40,5.00,4.80,5.00,4.80,4.80,4.80,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48660,ASOS II MARCH,Graduate,20.00,4.57,4.14,4.43,4.57,4.43,4.43,4.86,4.43,4.43
+2020,Fall,College of Fine Arts,ARC,48676,CONNCTD COMMUNITIES,Graduate,8.75,5.00,5.00,5.00,5.00,5.00,4.75,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48677,HINES COMPET,Graduate,15.90,4.80,4.70,4.70,4.80,4.70,4.80,4.80,4.80,4.60
+2020,Spring,College of Fine Arts,ARC,48684,REDD II,Graduate,9.88,5.00,4.75,4.88,4.88,5.00,4.88,5.00,4.88,4.88
+2020,Fall,College of Fine Arts,ARC,48689,DIGI SKLLS WRKSHP,Graduate,12.17,4.67,4.67,4.67,4.83,4.83,5.00,5.00,4.83,4.83
+2020,Spring,College of Fine Arts,ARC,48692,SHAPING DAYLIGHT,Graduate,6.88,5.00,5.00,5.00,5.00,5.00,4.88,4.88,4.75,4.75
+2020,Summer,College of Fine Arts,ARC,48704,MS INTERN,Graduate,17.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48706,URBAN STUDIO II,Graduate,22.00,5.00,4.60,4.60,4.40,5.00,4.60,5.00,4.80,4.75
+2020,Spring,College of Fine Arts,ARC,48708,MUD STUDIO IV,Graduate,20.20,5.00,4.80,5.00,5.00,5.00,4.80,5.00,4.80,4.80
+2020,Spring,College of Fine Arts,ARC,48711,PARADGMS RESCH ARCH,Graduate,12.78,4.22,4.78,4.78,4.33,4.33,4.33,4.44,4.33,4.22
+2020,Spring,College of Fine Arts,ARC,48712,MUD GRAD SEM II: GLO,Graduate,5.30,4.50,4.70,4.30,4.00,4.60,4.40,4.80,4.60,4.60
+2020,Spring,College of Fine Arts,ARC,48713,MUD URB EC,Graduate,7.70,4.90,4.30,4.50,4.40,4.70,4.80,4.90,4.80,4.67
+2020,Spring,College of Fine Arts,ARC,48715,MSCD PRE-THESIS 1,Graduate,8.43,5.00,4.86,4.86,4.71,4.71,4.86,5.00,4.57,4.43
+2020,Spring,College of Fine Arts,ARC,48720,PLNNG DES,Graduate,6.50,5.00,5.00,5.00,5.00,5.00,4.50,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48721,BLDG CONTRL DIAGNSTC,Graduate,11.00,5.00,5.00,5.00,4.75,5.00,4.75,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48722,BLDNG PERFMNC MODLNG,Graduate,9.91,4.82,5.00,4.91,4.73,5.00,5.00,5.00,4.91,4.91
+2020,Spring,College of Fine Arts,ARC,48723,PERF ADV BLDNG SYSTM,Graduate,6.00,4.67,4.17,4.17,4.67,4.67,4.80,5.00,4.60,4.33
+2020,Spring,College of Fine Arts,ARC,48737,DETAILING GRAD,Graduate,11.00,4.67,5.00,4.67,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48741,REAL ESTATE SEM,Graduate,7.17,4.83,4.83,4.83,4.67,4.67,4.83,5.00,4.83,5.00
+2020,Spring,College of Fine Arts,ARC,48752,ZERO ENERGY HOUSING,Graduate,8.75,4.75,4.50,4.50,4.75,5.00,4.50,4.75,4.75,4.75
+2020,Spring,College of Fine Arts,ARC,48756,PROJ PLNNG RPRTG,Graduate,9.50,4.00,3.50,4.00,4.00,4.50,3.50,5.00,3.50,3.00
+2020,Spring,College of Fine Arts,ARC,48759,VALUE BASED DSG IND,Graduate,6.33,4.44,3.22,3.67,3.78,4.22,3.89,5.00,4.00,3.56
+2020,Spring,College of Fine Arts,ARC,48773,EMRGNG MEDIA URBNSM,Graduate,7.77,4.23,4.85,4.77,4.46,4.62,4.54,4.54,4.15,4.38
+2020,Spring,College of Fine Arts,ARC,48781,SPTL ANLY INFRTC PLN,Graduate,11.22,4.89,4.94,4.89,4.78,4.94,4.83,5.00,4.94,4.89
+2020,Spring,College of Fine Arts,ARC,48785,MAAD RES PROJ,Graduate,17.00,4.75,4.75,4.75,5.00,4.75,4.75,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ARC,48792,PHD INDEP STUDY,Graduate,18.43,4.86,4.86,5.00,4.86,4.86,4.86,4.86,4.86,4.86
+2020,Spring,College of Fine Arts,ARC,48793,PHD THESIS,Graduate,27.00,3.00,4.00, , , , , , , 
+2020,Spring,College of Fine Arts,ARC,48795,LEED BLDGS GREEN DES,Graduate,9.50,4.80,4.70,4.80,4.80,5.00,4.90,5.00,4.80,4.90
+2020,Spring,College of Fine Arts,ART,60106,CRITICAL THEORY II,Undergraduate,6.15,4.85,4.62,4.69,4.46,4.69,4.54,4.77,4.46,4.54
+2020,Spring,College of Fine Arts,ART,60110,EMS MOVING IMAGE,Undergraduate,7.71,4.67,4.24,4.24,4.24,4.43,4.24,4.43,4.14,4.00
+2020,Spring,College of Fine Arts,ART,60125,INTRO TO 3D ANIMATN,Undergraduate,11.19,4.65,4.38,4.69,4.38,4.73,4.46,4.77,4.58,4.62
+2020,Spring,College of Fine Arts,ART,60133,3D MEDIA STUDIO II,Undergraduate,8.92,4.92,5.00,4.92,4.77,4.77,5.00,5.00,4.92,4.92
+2020,Spring,College of Fine Arts,ART,60134,3D MEDIA STUDIO II,Undergraduate,6.38,4.69,4.62,4.62,4.54,4.54,4.69,4.83,4.62,4.54
+2020,Spring,College of Fine Arts,ART,60141,B & W PHOTOGRAPHY I,Undergraduate,7.57,4.86,4.71,4.71,4.57,5.00,4.71,4.71,4.71,4.57
+2020,Spring,College of Fine Arts,ART,60142,DIGITAL PHOTOGRPHY I,Undergraduate,8.00,4.00,3.00,4.00,3.00,4.00,4.00,5.00,4.00,4.00
+2020,Spring,College of Fine Arts,ART,60157,DRAWING NON-MAJORS,Undergraduate,8.27,4.91,4.09,4.45,4.73,4.82,4.55,5.00,4.36,4.36
+2020,Spring,College of Fine Arts,ART,60160,2D MDA STD: IMAGING,Undergraduate,8.00,5.00,4.64,4.82,4.82,4.91,4.82,4.73,4.60,4.82
+2020,Spring,College of Fine Arts,ART,60206,CRITICAL THEORY IV,Undergraduate,7.68,4.42,4.42,4.47,4.32,4.50,4.58,4.63,4.42,4.26
+2020,Spring,College of Fine Arts,ART,60223,PHYSICAL COMPUTING,Undergraduate,9.80,4.80,4.40,4.60,4.50,4.50,4.40,4.60,4.70,4.70
+2020,Spring,College of Fine Arts,ART,60235,PHOTOGRAPH AMERICA,Undergraduate,8.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60241,BL & WHT PHOTOGHY II,Undergraduate,10.00,5.00,5.00,5.00,4.67,5.00,4.67,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60280,INTRO CONTEXT PRACT,Undergraduate,9.42,4.32,4.21,4.16,4.05,4.11,4.21,4.47,4.05,3.74
+2020,Spring,College of Fine Arts,ART,60350,BUSINESS-CREATIVE PR,Undergraduate,4.25,4.75,4.75,4.88,4.50,4.63,4.88,4.75,4.88,5.00
+2020,Spring,College of Fine Arts,ART,60364,CS: DECOLONIZE NOW!,Undergraduate,11.25,4.75,4.75,4.25,4.25,4.75,5.00,4.75,4.25,4.00
+2020,Spring,College of Fine Arts,ART,60397,"ART, CONFLICT & TECH",Undergraduate,11.25,4.83,4.67,4.58,4.58,4.58,4.58,4.58,4.67,4.67
+2020,Spring,College of Fine Arts,ART,60402,SENIOR STUDIO,Undergraduate,11.78,4.44,4.30,4.37,4.59,4.41,4.37,4.52,4.37,4.04
+2020,Spring,College of Fine Arts,ART,60405,ADV ETB: SPECIAL TOP,Undergraduate,12.80,4.60,5.00,4.80,4.80,4.80,4.80,4.80,4.80,4.80
+2020,Spring,College of Fine Arts,ART,60407,EXPERIMNT SND SYNTH,Undergraduate,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60414,ADV ETB ANM ART/TECH,Undergraduate,19.67,4.17,4.00,4.00,4.33,4.17,4.17,4.33,4.17,4.33
+2020,Spring,College of Fine Arts,ART,60417,ADV ETB: OPEN VIDEO,Undergraduate,9.50,4.83,4.50,4.50,4.50,4.50,4.50,4.67,4.50,4.67
+2020,Spring,College of Fine Arts,ART,60418,ETB: GESTURAL GAMES,Undergraduate,9.20,4.60,4.80,4.80,4.80,5.00,5.00,5.00,4.80,4.80
+2020,Spring,College of Fine Arts,ART,60424,ADV ETB: SPEC TPC,Undergraduate,12.00,4.50,3.38,3.38,4.13,3.75,3.50,4.75,4.13,3.50
+2020,Spring,College of Fine Arts,ART,60426,ADV ETB 2D ANIMATION,Undergraduate,13.85,4.62,4.15,4.23,4.69,4.62,4.15,4.77,4.46,4.31
+2020,Spring,College of Fine Arts,ART,60430,ADV SIS: OPN SCULPT,Undergraduate,11.00,4.80,4.60,4.60,4.80,4.40,4.40,4.80,4.80,4.80
+2020,Spring,College of Fine Arts,ART,60437,ADV CP/SIS: ENV SCLT,Undergraduate,6.50,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60440,ADVD SIS: SPCL TOPC,Undergraduate,11.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60447,ART AT END OF WORLD,Undergraduate,5.00,4.00,2.00,2.00,4.00,4.00,3.00,5.00,4.00,4.00
+2020,Spring,College of Fine Arts,ART,60449,ADV CP SPECIAL TOPIC,Undergraduate,12.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60450,ADV DP3 DRAWING,Undergraduate,12.00,5.00,3.33,4.00,4.33,4.67,4.00,4.33,4.33,4.00
+2020,Spring,College of Fine Arts,ART,60452,ADV DP3: COLOR,Undergraduate,9.71,4.71,4.29,4.43,4.43,4.86,4.71,4.71,4.57,4.57
+2020,Spring,College of Fine Arts,ART,60453,ADV DP3 PAINTING,Undergraduate,12.11,4.44,4.22,4.22,4.22,4.50,4.44,4.33,4.38,4.44
+2020,Spring,College of Fine Arts,ART,60461,EXPERIMENTAL CAPTURE,Undergraduate,9.15,4.96,4.85,4.88,4.88,4.81,4.85,5.00,4.96,5.00
+2020,Spring,College of Fine Arts,ART,60464,GRAPHIC NOVEL,Undergraduate,12.11,5.00,4.89,4.89,5.00,4.89,4.78,5.00,5.00,4.89
+2020,Spring,College of Fine Arts,ART,60475,ADV DP3: OPEN PRINT,Undergraduate,9.50,5.00,4.50,4.50,5.00,4.75,5.00,5.00,5.00,4.75
+2020,Spring,College of Fine Arts,ART,60476,ADV PRINT SERIGRAPHY,Undergraduate,11.38,4.75,4.50,4.63,4.50,4.63,4.50,4.75,4.75,4.63
+2020,Spring,College of Fine Arts,ART,60479,PICTURING IDENTITY,Undergraduate,6.50,5.00,4.00,3.50,4.50,4.00,4.50,5.00,4.00,4.00
+2020,Spring,College of Fine Arts,ART,60499,STDIO INDEPNDNT STDY,Undergraduate,8.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,College of Fine Arts,ART,60702,MFA CRIT STUDIES 2,Graduate,9.80,4.60,3.80,3.50,4.60,4.00,3.80,3.60,3.50,3.50
+2020,Spring,College of Fine Arts,ART,60711,MFA THESIS WRITING,Graduate,9.20,4.60,4.60,4.80,4.60,4.60,4.60,4.60,4.40,4.40
+2020,Spring,College of Fine Arts,ART,60761,EXPERIMENTAL CAPTURE,Graduate,12.20,4.80,4.80,4.80,4.80,4.40,4.00,5.00,4.40,4.60
+2020,Spring,College of Fine Arts,ART,60791,MFA INTEGRATIVE SEM,Graduate,6.13,4.63,4.75,4.63,4.75,4.71,4.75,4.63,4.63,4.63
+2020,Spring,Tepper School of Business,BA,70100,GLOBAL BUSINESS,Undergraduate,4.92,4.25,4.31,4.33,4.14,4.44,4.06,4.61,4.14,3.89
+2020,Spring,Tepper School of Business,BA,70104,BLE I,Undergraduate,3.16,4.81,4.23,4.57,4.27,4.69,4.43,4.81,4.43,3.96
+2020,Spring,Tepper School of Business,BA,70110,BUSINESS COMPUTING,Undergraduate,8.25,4.15,4.27,4.28,3.99,4.16,4.15,4.59,3.99,3.99
+2020,Spring,Tepper School of Business,BA,70122,INTRO TO ACCOUNTING,Undergraduate,6.70,4.30,4.27,4.22,3.83,4.12,4.17,4.62,4.13,3.92
+2020,Summer,Tepper School of Business,BA,70122,INTRO TO ACCOUNTING,Undergraduate,11.06,4.88,4.94,4.88,5.00,4.94,4.94,5.00,4.81,4.81
+2020,Spring,Tepper School of Business,BA,70201,PROFSSNL & SRVC PROJ,Undergraduate,3.09,4.70,4.45,4.52,4.52,4.36,4.52,4.70,4.42,4.18
+2020,Fall,Tepper School of Business,BA,70204,BLE II,Undergraduate,3.38,4.90,4.60,4.74,4.62,4.80,4.76,4.86,4.74,4.54
+2020,Spring,Tepper School of Business,BA,70205,BLE II,Undergraduate,4.90,4.63,4.16,4.38,4.26,4.38,4.21,4.50,4.21,3.79
+2020,Spring,Tepper School of Business,BA,70207,PROB & STAT BUS APPL,Undergraduate,6.80,4.00,3.80,4.10,3.50,3.70,3.50,4.30,3.70,3.50
+2020,Summer,Tepper School of Business,BA,70208,REGRESSION ANALYSIS,Undergraduate,10.17,4.17,4.17,4.17,4.00,3.83,3.83,4.17,4.00,4.00
+2020,Spring,Tepper School of Business,BA,70208,REGRESSION ANALYSIS,Undergraduate,8.93,4.67,4.63,4.74,4.19,4.56,4.70,4.89,4.63,4.63
+2020,Spring,Tepper School of Business,BA,70246,ENTREP MINDSET,Undergraduate,5.23,4.83,4.67,4.75,4.83,4.92,4.92,5.00,4.92,4.83
+2020,Spring,Tepper School of Business,BA,70257,OPTI FOR BUSNS,Undergraduate,9.97,4.29,4.40,4.38,4.01,4.41,4.23,4.55,4.26,4.19
+2020,Summer,Tepper School of Business,BA,70257,OPTI FOR BUSNS,Undergraduate,10.36,4.57,4.71,4.64,4.29,4.71,4.50,4.86,4.64,4.71
+2020,Spring,Tepper School of Business,BA,70258,DEV BLOCKCHAIN CASE,Undergraduate,5.00,4.50,4.67,5.00,4.67,5.00,4.83,5.00,5.00,5.00
+2020,Spring,Tepper School of Business,BA,70305,BLE III,Undergraduate,3.12,4.83,4.22,4.33,4.59,4.43,4.50,4.86,4.57,3.90
+2020,Spring,Tepper School of Business,BA,70311,ORGNZTN BEHAVIOR,Undergraduate,7.00,4.77,4.72,4.71,4.46,4.67,4.77,4.90,4.69,4.63
+2020,Summer,Tepper School of Business,BA,70311,ORGNZTN BEHAVIOR,Undergraduate,11.15,4.95,4.50,4.65,4.95,4.90,4.55,5.00,4.80,4.85
+2020,Spring,Tepper School of Business,BA,70321,NEGOTIATN CNFLCT RES,Undergraduate,5.38,4.94,4.69,4.94,4.88,5.00,4.75,5.00,4.75,4.69
+2020,Summer,Tepper School of Business,BA,70321,NEGOTIATN CNFLCT RES,Undergraduate,9.50,4.75,4.75,4.75,4.75,4.75,4.75,4.50,4.75,4.75
+2020,Spring,Tepper School of Business,BA,70332,BUS SOCIETY & ETHICS,Undergraduate,8.23,4.53,4.58,4.52,4.33,4.48,4.44,4.67,4.26,4.23
+2020,Spring,Tepper School of Business,BA,70340,BUSINESS COMMUNCTNS,Undergraduate,6.97,4.89,4.56,4.73,4.59,4.84,4.74,4.89,4.77,4.63
+2020,Spring,Tepper School of Business,BA,70341,TEAM DYNAMICS,Undergraduate,7.64,4.68,3.77,3.82,4.05,4.33,4.18,4.59,4.00,3.73
+2020,Spring,Tepper School of Business,BA,70342,MANAGE ACRSS CLTURES,Undergraduate,10.89,4.65,4.59,4.71,4.35,4.53,4.59,4.82,4.53,4.47
+2020,Spring,Tepper School of Business,BA,70345,BUSINESS PRSNTATIONS,Undergraduate,8.74,4.45,4.37,4.53,4.52,4.61,4.45,4.44,4.46,4.43
+2020,Spring,Tepper School of Business,BA,70350,ACTING FOR BUSINESS,Undergraduate,4.77,4.54,4.27,4.36,4.69,4.42,4.38,3.81,4.42,4.38
+2020,Spring,Tepper School of Business,BA,70352,BUSINESS ACTING,Undergraduate,5.00,4.63,4.75,4.50,4.88,4.63,4.63,4.88,4.75,4.63
+2020,Spring,Tepper School of Business,BA,70364,BUSINESS LAW,Undergraduate,8.00,4.33,4.33,4.67,3.67,4.00,3.33,5.00,3.33,3.33
+2020,Spring,Tepper School of Business,BA,70366,INTEL PROPRTY & ECOM,Undergraduate,5.30,4.40,4.60,4.40,3.70,4.60,4.50,4.80,4.40,4.30
+2020,Spring,Tepper School of Business,BA,70371,OPERATIONS MGMT,Undergraduate,7.23,4.60,4.42,4.47,4.21,4.19,4.38,4.77,4.38,4.19
+2020,Summer,Tepper School of Business,BA,70371,OPERATIONS MGMT,Undergraduate,12.07,4.55,4.48,4.21,4.14,4.24,4.37,4.76,4.24,4.14
+2020,Spring,Tepper School of Business,BA,70374,DATA MINING BUS ANLY,Undergraduate,6.73,4.12,3.85,4.00,3.61,4.03,3.85,4.58,3.55,3.52
+2020,Summer,Tepper School of Business,BA,70381,MARKETING I,Undergraduate,13.00,4.75,3.75,4.25,4.13,4.38,4.13,4.88,3.88,4.00
+2020,Spring,Tepper School of Business,BA,70381,MARKETING I,Undergraduate,7.34,4.70,4.53,4.63,4.51,4.59,4.67,4.89,4.50,4.49
+2020,Spring,Tepper School of Business,BA,70385,CONSUMER BEHAVIOR,Undergraduate,7.40,2.67,3.17,2.67,2.50,3.17,3.17,2.17,2.50,2.83
+2020,Summer,Tepper School of Business,BA,70391,FINANCE,Undergraduate,12.37,4.32,4.11,4.37,3.89,4.42,4.21,4.53,4.05,4.16
+2020,Spring,Tepper School of Business,BA,70391,FINANCE,Undergraduate,8.28,4.28,4.35,4.38,3.85,4.38,4.22,4.63,4.15,4.13
+2020,Spring,Tepper School of Business,BA,70398,INTERNATNL FINANCE,Undergraduate,9.50,4.75,5.00,5.00,4.50,5.00,4.75,5.00,4.50,4.75
+2020,Spring,Tepper School of Business,BA,70401,MANAGEMENT GAME,Undergraduate,10.15,3.78,3.56,3.80,3.37,3.85,3.41,4.46,3.49,3.51
+2020,Spring,Tepper School of Business,BA,70415,INTRO ENTREPRENRSHIP,Undergraduate,7.33,4.33,4.07,4.20,4.31,4.44,4.26,4.21,4.15,4.15
+2020,Spring,Tepper School of Business,BA,70416,NEW VENTURE CREATION,Undergraduate,9.10,4.65,4.65,4.58,4.32,4.58,4.60,4.95,4.60,4.55
+2020,Spring,Tepper School of Business,BA,70417,TPCS IN ENTREPRNRSHP,Undergraduate,6.20,4.80,4.80,4.80,4.80,4.60,4.60,5.00,4.80,4.60
+2020,Spring,Tepper School of Business,BA,70422,MANAGERIAL ACCOUNTNG,Undergraduate,7.00,4.83,4.67,4.67,4.33,4.67,4.83,4.83,4.67,4.83
+2020,Spring,Tepper School of Business,BA,70427,MODERN BANKS,Undergraduate,8.00,5.00,4.00,4.00,4.00,5.00,4.00,5.00,5.00,4.50
+2020,Spring,Tepper School of Business,BA,70438,COMMERCLZN & INNOVTN,Undergraduate,4.00,3.33,2.67,3.00,4.00,4.00,3.67,3.67,3.33,3.33
+2020,Spring,Tepper School of Business,BA,70440,CORPORATE STRATEGY,Undergraduate,9.43,5.00,4.57,4.86,4.86,5.00,5.00,4.86,5.00,5.00
+2020,Spring,Tepper School of Business,BA,70443,DGTL MKTG SCL MD STG,Undergraduate,6.80,4.20,4.10,4.22,4.11,4.67,4.60,5.00,4.20,4.30
+2020,Spring,Tepper School of Business,BA,70455,MODRN DATA MANGEMNT,Undergraduate,8.42,4.88,4.67,4.75,4.71,4.83,4.83,4.92,4.71,4.75
+2020,Spring,Tepper School of Business,BA,70460,MATH MDLS FR CNSLTNG,Undergraduate,8.60,5.00,5.00,5.00,5.00,5.00,5.00,4.60,5.00,5.00
+2020,Spring,Tepper School of Business,BA,70462,UNCERT RISK MODELING,Undergraduate,8.00,3.80,3.80,4.20,4.00,4.60,4.20,4.40,3.80,3.80
+2020,Spring,Tepper School of Business,BA,70471,SUPPLY CHAIN MGMT,Undergraduate,7.44,4.06,4.56,4.56,3.75,4.63,4.62,4.62,4.37,4.44
+2020,Fall,Tepper School of Business,BA,70478,PRICING STRATEGY,Undergraduate,8.43,4.86,4.86,4.86,4.86,4.86,4.86,4.71,4.86,4.71
+2020,Spring,Tepper School of Business,BA,70480,INTERNTNL MARKETING,Undergraduate,5.67,4.78,4.78,4.78,4.78,4.67,4.78,4.89,4.56,4.56
+2020,Spring,Tepper School of Business,BA,70481,MARKETING RESEARCH,Undergraduate,7.00,4.67,4.33,4.67,5.00,5.00,4.33,5.00,4.67,4.33
+2020,Spring,Tepper School of Business,BA,70485,PRODUCT & BRAND MGT,Undergraduate,5.25,4.25,4.50,4.33,4.33,4.25,4.00,4.67,4.17,4.08
+2020,Spring,Tepper School of Business,BA,70489,PROD SRV INNOVAT,Undergraduate,7.50,5.00,4.50,4.75,5.00,4.75,4.75,5.00,5.00,4.50
+2020,Spring,Tepper School of Business,BA,70490,BG DTA FINC MCH LRNG,Undergraduate,7.25,5.00,4.75,4.75,4.75,5.00,5.00,5.00,5.00,4.00
+2020,Spring,Tepper School of Business,BA,70492,INVESTMENT ANALYSIS,Undergraduate,8.44,4.68,4.41,4.44,4.18,4.53,4.24,4.82,4.18,4.24
+2020,Spring,Tepper School of Business,BA,70493,VALUATION AND FIN MO,Undergraduate,7.27,4.84,4.84,4.86,4.73,4.86,4.84,4.98,4.86,4.84
+2020,Spring,Tepper School of Business,BA,70494,MRKTS: ANOM & EFCNCY,Undergraduate,13.39,3.83,3.67,3.83,3.83,3.56,3.72,3.94,3.72,3.33
+2020,Spring,Tepper School of Business,BA,70495,CORPORATE FINANCE,Undergraduate,7.88,4.57,4.69,4.73,4.33,4.75,4.55,4.78,4.55,4.52
+2020,Spring,Carnegie Institute of Technology,BMD,42101,INTRODUCTION BIOMED,Undergraduate,8.24,3.80,3.73,3.90,2.90,4.22,3.80,4.37,3.59,3.49
+2020,Spring,Carnegie Institute of Technology,BMD,42201,PRO ISSUES IN BIOMED,Undergraduate,2.19,4.84,4.90,4.97,4.32,4.87,4.87,5.00,4.80,4.68
+2020,Spring,Carnegie Institute of Technology,BMD,42202,PHYSIOLOGY,Undergraduate,8.56,4.79,4.77,4.60,4.07,4.79,4.67,4.88,4.70,4.63
+2020,Spring,Carnegie Institute of Technology,BMD,42203,BIOMED ENG LAB,Undergraduate,8.25,4.25,4.00,4.33,3.50,4.58,4.33,4.67,4.08,4.00
+2020,Spring,Carnegie Institute of Technology,BMD,42302,BIOMED EN SY MD ANLY,Undergraduate,6.85,4.46,4.62,4.69,4.38,4.85,4.31,4.85,4.31,4.31
+2020,Spring,Carnegie Institute of Technology,BMD,42402,BME DESIGN PROJECT,Undergraduate,8.45,4.85,4.25,4.50,4.55,4.65,4.40,4.95,4.75,4.45
+2020,Spring,Carnegie Institute of Technology,BMD,42444,MEDICAL DEVICES,Undergraduate,6.50,4.33,4.33,4.33,3.83,4.67,4.00,5.00,4.17,4.17
+2020,Spring,Carnegie Institute of Technology,BMD,42612,TISSUE ENG,Graduate,14.00,4.00,4.00,3.50,4.00,3.50,3.50,5.00,4.50,4.00
+2020,Spring,Carnegie Institute of Technology,BMD,42613,POLY BIOMAT,Graduate,7.25,4.50,4.75,4.75,4.50,4.50,4.50,5.00,4.50,4.50
+2020,Spring,Carnegie Institute of Technology,BMD,42624,BIOLGL TRNSP DRG DLV,Graduate,9.36,4.73,4.82,4.55,4.00,4.64,4.82,4.91,4.82,4.55
+2020,Spring,Carnegie Institute of Technology,BMD,42630,INTRO NEURO ENG,Graduate,9.00,4.75,5.00,4.75,4.25,4.75,4.75,5.00,4.50,4.75
+2020,Spring,Carnegie Institute of Technology,BMD,42632,NEURAL SIGNAL PROC,Graduate,13.67,4.92,4.75,4.92,4.33,4.92,4.75,4.92,4.83,4.75
+2020,Spring,Carnegie Institute of Technology,BMD,42643,MICROFLUIDICS,Graduate,8.00,4.50,4.50,4.50,3.50,4.50,5.00,5.00,4.50,4.50
+2020,Spring,Carnegie Institute of Technology,BMD,42645,CELLULAR BIOMECHNICS,Graduate,9.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,Carnegie Institute of Technology,BMD,42648,CARDIO MECH,Graduate,12.50,5.00,4.50,5.00,5.00,4.75,5.00,5.00,4.50,4.75
+2020,Spring,Carnegie Institute of Technology,BMD,42661,SURG FOR ENG,Graduate,4.00,4.89,4.85,4.89,4.59,4.96,4.81,5.00,4.93,5.00
+2020,Spring,Carnegie Institute of Technology,BMD,42670,BIOMAT HOST REGEN,Graduate,10.57,4.86,4.71,4.86,4.71,5.00,4.57,5.00,4.86,4.86
+2020,Spring,Carnegie Institute of Technology,BMD,42678,MED DEV INNOV REALIZ,Graduate,8.00,5.00,5.00,5.00,4.83,5.00,5.00,5.00,5.00,5.00
+2020,Spring,Carnegie Institute of Technology,BMD,42685,BIOSTAT,Graduate,9.20,4.70,4.90,4.80,4.40,4.70,4.40,4.80,4.60,4.60
+2020,Spring,Carnegie Institute of Technology,BMD,42688,INTRO NEURAL ENG,Graduate,9.64,5.00,4.45,4.82,4.82,4.91,4.91,5.00,5.00,4.82
+2020,Spring,Carnegie Institute of Technology,BMD,42689,INTRO TO BIOIMAG,Graduate,8.43,5.00,5.00,4.86,4.86,5.00,4.71,5.00,4.71,5.00
+2020,Spring,Carnegie Institute of Technology,BMD,42690,BME IN LIFE,Graduate,8.00,5.00,4.83,5.00,4.67,5.00,5.00,5.00,5.00,4.83
+2020,Spring,Carnegie Institute of Technology,BMD,42691,BIO HUMAN MOVEMENT,Graduate,12.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,Carnegie Institute of Technology,BMD,42744,MEDICAL DEVICES,Graduate,8.67,4.67,4.44,4.33,4.22,4.56,4.33,4.78,4.44,4.33
+2020,Spring,Carnegie Institute of Technology,BMD,42781,PRO ISSUES IN BIOMED,Graduate,3.50,5.00,5.00,4.50,4.50,4.50,4.50,5.00,4.50,4.50
+2020,Spring,Carnegie Institute of Technology,BMD,42782,BIOMED EN SY MD ANLY,Graduate,8.75,5.00,5.00,5.00,5.00,4.75,5.00,5.00,4.75,4.75
+2020,Spring,Mellon College of Science,BSC,3116,PHAGE GENOMICS RSRCH,Undergraduate,5.00,4.50,4.00,5.00,5.00,5.00,4.00,4.50,4.00,4.00
+2020,Spring,Mellon College of Science,BSC,3117,DISCOVERY IN BIO SCI,Undergraduate,7.55,4.65,4.47,4.76,4.53,4.76,4.65,4.71,4.71,4.29
+2020,Fall,Mellon College of Science,BSC,3118,BEER: YEAST PERSPECT,Undergraduate,6.71,4.71,4.71,4.86,4.57,4.71,5.00,4.57,4.29,4.43
+2020,Spring,Mellon College of Science,BSC,3118,BEER: YEAST PERSPECT,Undergraduate,6.17,5.00,5.00,5.00,4.83,5.00,5.00,5.00,5.00,5.00
+2020,Fall,Mellon College of Science,BSC,3120,BIO FOR LIFE MINI,Undergraduate,5.00,5.00,4.67,4.67,4.67,5.00,5.00,5.00,5.00,4.67
+2020,Spring,Mellon College of Science,BSC,3120,BIO FOR LIFE MINI,Undergraduate,6.50,4.79,4.79,4.43,4.79,4.86,4.93,4.86,4.77,4.31
+2020,Summer,Mellon College of Science,BSC,3121,MODERN BIOLOGY,Undergraduate,12.06,4.81,4.31,4.56,4.56,4.69,4.37,4.81,4.50,4.25
+2020,Spring,Mellon College of Science,BSC,3121,MODERN BIOLOGY,Undergraduate,7.68,4.29,4.14,4.01,3.70,4.12,3.88,4.65,3.87,3.78
+2020,Spring,Mellon College of Science,BSC,3124,MODERN BIOLOGY LAB,Undergraduate,11.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,Mellon College of Science,BSC,3128,BIOLOGY FOR LIFE,Undergraduate,5.67,4.56,4.78,4.78,4.56,4.78,4.67,4.89,4.44,4.67
+2020,Summer,Mellon College of Science,BSC,3132,BAS SCI TO MOD MEDCN,Undergraduate,13.71,4.64,4.57,4.43,4.29,4.79,4.64,4.79,4.57,4.43
+2020,Spring,Mellon College of Science,BSC,3161,MOLECULES TO MIND,Undergraduate,8.40,3.67,3.33,4.00,3.13,3.60,3.13,4.00,3.07,3.00
+2020,Spring,Mellon College of Science,BSC,3202,UNDGRAD COLLOQUM SOP,Undergraduate,2.86,3.86,3.86,4.00,4.14,3.71,3.86,4.71,4.14,3.43
+2020,Spring,Mellon College of Science,BSC,3206,BIOMED ENG LAB,Undergraduate,9.80,4.40,4.00,4.00,4.20,4.40,4.00,4.60,4.20,4.20
+2020,Fall,Mellon College of Science,BSC,3210,INDEPENDENT STUDY,Undergraduate,8.00,4.50,4.50,5.00,5.00,5.00,4.50,5.00,5.00,4.50
+2020,Spring,Mellon College of Science,BSC,3220,GENETICS,Undergraduate,5.90,4.90,4.90,4.70,4.10,5.00,4.67,5.00,4.78,5.00
+2020,Spring,Mellon College of Science,BSC,3221,QUANT. GENETICS,Undergraduate,8.00,4.25,4.25,4.25,4.25,4.75,4.50,4.50,4.25,4.00
+2020,Summer,Mellon College of Science,BSC,3230,INTRO MAMMALIAN PHYS,Undergraduate,10.00,5.00,4.67,4.67,4.33,4.67,4.67,5.00,5.00,4.67
+2020,Spring,Mellon College of Science,BSC,3230,INTRO MAMMALIAN PHYS,Undergraduate,11.00,5.00,4.00,4.00,3.50,5.00,4.00,5.00,4.50,4.50
+2020,Spring,Mellon College of Science,BSC,3231,HONORS BIOCHEMISTRY,Undergraduate,8.48,4.32,4.20,4.28,3.68,4.44,4.20,4.72,4.28,4.04
+2020,Spring,Mellon College of Science,BSC,3232,BIOCHEMISTRY I,Undergraduate,8.14,4.64,4.44,4.47,4.27,4.73,4.40,4.89,4.47,4.29
+2020,Summer,Mellon College of Science,BSC,3232,BIOCHEMISTRY I,Undergraduate,13.25,5.00,4.75,4.75,4.75,5.00,4.50,5.00,5.00,4.75
+2020,Spring,Mellon College of Science,BSC,3240,CELL BIOLOGY,Undergraduate,8.00,5.00,4.50,4.58,4.33,4.83,4.67,4.92,4.75,4.83
+2020,Spring,Mellon College of Science,BSC,3344,EXPERMNTL BIOCHEMTRY,Undergraduate,15.08,5.00,4.85,4.92,4.85,4.69,4.77,4.92,4.92,4.77
+2020,Spring,Mellon College of Science,BSC,3345,EXPER CEL DEV BIOLGY,Undergraduate,15.00,5.00,5.00,5.00,4.75,4.88,5.00,5.00,5.00,5.00
+2020,Spring,Mellon College of Science,BSC,3350,DEVELOPMNTL BIOLOGY,Undergraduate,9.71,4.71,4.29,4.43,4.29,4.71,4.57,5.00,4.71,4.43
+2020,Spring,Mellon College of Science,BSC,3355,STEM CELL ENGINEERNG,Undergraduate,9.50,4.88,4.63,4.50,4.38,4.88,4.75,4.88,4.75,4.63
+2020,Summer,Mellon College of Science,BSC,3362,CELLULAR NEUROSCIENC,Undergraduate,15.00,5.00,4.91,4.91,4.55,5.00,4.55,4.82,4.73,4.55
+2020,Spring,Mellon College of Science,BSC,3363,SYSTEMS NEUROSCIENCE,Undergraduate,7.48,4.14,4.00,4.22,3.70,4.44,4.07,4.21,3.93,3.86
+2020,Spring,Mellon College of Science,BSC,3365,NEURAL CORR. LRN MEM,Undergraduate,6.36,4.82,4.36,4.55,4.45,4.73,4.55,4.91,4.27,4.45
+2020,Spring,Mellon College of Science,BSC,3390,MOLECULAR CELL IMMUN,Undergraduate,7.07,4.14,3.72,3.83,3.45,4.21,4.17,4.45,4.10,4.00
+2020,Spring,Mellon College of Science,BSC,3391,MICROBIOLOGY,Undergraduate,6.00,5.00,4.67,4.67,4.33,4.83,4.67,5.00,4.83,4.83
+2020,Spring,Mellon College of Science,BSC,3409,APPLIED CELL BIO,Undergraduate,4.40,5.00,4.20,4.40,4.40,4.40,4.60,4.80,4.60,4.20
+2020,Spring,Mellon College of Science,BSC,3445,UNDERGRAD RESEARCH,Undergraduate,11.00,4.50,4.00,4.50,4.50,4.50,5.00,5.00,4.50,4.50
+2020,Spring,Mellon College of Science,BSC,3621,ADV. QUANT. GENETICS,Graduate,7.77,4.77,5.00,5.00,4.93,4.93,4.93,5.00,4.86,4.62
+2020,Fall,Mellon College of Science,BSC,3701,STAT CMPTNG BSC,Graduate,2.75,2.25,3.00,3.25,2.50,3.00,2.75,3.50,2.67,2.50
+2020,Spring,Mellon College of Science,BSC,3713,BIOINFMTCS DATA PRAC,Graduate,6.96,4.38,3.96,4.00,4.19,4.19,3.58,4.88,4.12,3.77
+2020,Spring,Mellon College of Science,BSC,3728,GENOME EDIT BIOTECH,Graduate,7.00,4.57,4.48,4.67,4.57,4.67,4.57,4.95,4.57,4.38
+2020,Spring,Mellon College of Science,BSC,3730,ADVANCED GENETICS,Graduate,6.63,4.88,4.58,4.71,4.42,4.83,4.75,5.00,4.75,4.92
+2020,Spring,Mellon College of Science,BSC,3741,ADV CELL BIOLOGY,Graduate,9.88,4.58,4.55,4.45,4.05,4.67,4.70,4.67,4.50,4.45
+2020,Fall,Mellon College of Science,BSC,3747,PPSL PREP PEER REV,Graduate,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,4.75
+2020,Fall,Mellon College of Science,BSC,3758,SPECIAL TOPICS,Graduate,5.50,4.67,4.83,4.83,4.50,5.00,5.00,5.00,4.83,4.83
+2020,Spring,Mellon College of Science,BSC,3763,ADV SYS NEUROSCIENCE,Graduate,6.82,4.67,4.33,4.36,4.05,4.67,4.62,4.85,4.49,4.31
+2020,Spring,Mellon College of Science,BSC,3791,ADV MICROBIO,Graduate,7.79,4.93,4.79,4.71,4.64,4.79,4.69,5.00,5.00,4.85
+2020,Spring,Carnegie Mellon University,BXA,52291,BXA SEM II,Undergraduate,3.00,4.67,3.78,3.44,3.67,3.89,3.78,5.00,4.00,3.78
+2020,Spring,Carnegie Mellon University,BXA,52392,BXA SEM III,Undergraduate,4.33,4.78,4.00,4.33,4.33,4.33,4.33,5.00,4.22,4.22
+2020,Spring,Carnegie Mellon University,BXA,52402,BXA SEM V: CAPSTONE,Undergraduate,5.27,4.91,4.73,4.82,4.82,4.91,4.73,4.91,4.73,4.73
+2020,Spring,Dietrich College of Humanities and Social Sciences,CAS,64880,GR SPT MDA MEDTD REL,Graduate,11.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Summer,School of Computer Science,CB,2000,PRECLG WRKSHP,Undergraduate,21.88,4.85,4.79,4.83,4.43,4.92,4.86,4.96,4.86,4.77
+2020,Spring,School of Computer Science,CB,2250,INTRO TO COMP BIO,Undergraduate,8.16,4.00,3.86,3.93,3.43,3.96,3.75,4.14,3.57,3.50
+2020,Spring,School of Computer Science,CB,2251,GREAT IDEAS IN CB,Undergraduate,12.67,4.78,5.00,4.89,4.33,4.89,4.89,4.89,4.78,4.78
+2020,Spring,School of Computer Science,CB,2261,QNTV CL MLC BLG LAB,Undergraduate,5.00,4.50,5.00,4.50,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,School of Computer Science,CB,2318,INTRO COMP MEDICINE,Undergraduate,5.00,5.00,4.50,4.50,4.75,5.00,5.00,5.00,4.75,4.75
+2020,Spring,School of Computer Science,CB,2331,MODELING EVOLUTION,Undergraduate,5.00,5.00,3.00,3.00,2.00,4.00,3.00,5.00,3.00,3.00
+2020,Spring,School of Computer Science,CB,2414,STRING ALGORITHMS,Undergraduate,8.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,School of Computer Science,CB,2450,AUTMTN SCI RESRCH,Undergraduate,8.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,School of Computer Science,CB,2510,COMPUTATNL GENOMICS,Undergraduate,8.00,4.50,4.00,4.67,4.17,4.67,4.17,4.33,4.17,4.00
+2020,Spring,School of Computer Science,CB,2605,PROF ISSUES A S,Graduate,2.50,4.00,4.00,4.00,3.67,3.83,3.83,4.83,4.17,3.50
+2020,Spring,School of Computer Science,CB,2613,ALGR & ADV DTA STRC,Graduate,8.00,4.50,5.00,5.00,4.00,4.00,5.00,4.50,4.00,4.00
+2020,Spring,School of Computer Science,CB,2614,STRING ALGORITHMS,Graduate,11.00,4.00,4.50,4.63,3.50,4.75,4.75,4.63,4.75,4.50
+2020,Spring,School of Computer Science,CB,2620,ML FOR SCIENTISTS,Graduate,7.94,4.50,4.41,4.44,4.26,4.50,4.15,4.79,4.18,4.06
+2020,Spring,School of Computer Science,CB,2710,COMPUTATNL GENOMICS,Graduate,9.31,3.74,3.78,3.75,3.46,4.04,3.62,4.30,3.42,3.64
+2020,Spring,School of Computer Science,CB,2731,MODELING EVOLUTION,Graduate,7.57,4.29,3.86,4.00,3.71,4.29,4.14,4.57,4.14,3.86
+2020,Spring,School of Computer Science,CB,2750,AUTOMTN SCI RESRC,Graduate,9.78,4.06,4.50,4.39,3.72,4.61,4.39,4.39,4.11,3.78
+2020,Spring,School of Computer Science,CB,2760,LAB METHODS COMP BIO,Graduate,5.00,4.29,4.29,4.43,4.29,4.43,4.14,4.71,4.14,3.29
+2020,Spring,School of Computer Science,CB,2762,LAB METHDS AUTBIO II,Graduate,8.43,4.57,4.29,4.14,4.43,4.33,4.57,4.86,4.43,4.29
+2020,Spring,Carnegie Institute of Technology,CEE,12030,IDEATE ST: RES STRUC,Undergraduate,5.38,4.88,4.75,4.75,4.50,4.50,4.50,4.88,4.75,4.63
+2020,Spring,Carnegie Institute of Technology,CEE,12100,EXPLORING CEE,Undergraduate,5.67,4.42,4.37,4.39,4.22,4.56,4.40,4.80,4.26,4.22
+2020,Spring,Carnegie Institute of Technology,CEE,12201,GEOLOGY,Undergraduate,6.14,4.83,4.76,4.76,4.38,4.76,4.72,4.93,4.72,4.66
+2020,Spring,Carnegie Institute of Technology,CEE,12216,RESEARCH SKILLS,Undergraduate,2.60,4.40,4.20,4.40,4.40,4.40,4.40,4.60,4.20,4.40
+2020,Spring,Carnegie Institute of Technology,CEE,12231,SOLID MECHANICS,Undergraduate,8.11,3.37,3.30,3.33,2.93,3.33,2.77,3.85,2.81,2.93
+2020,Spring,Carnegie Institute of Technology,CEE,12232,SOLID MECHANICS LAB,Undergraduate,7.33,4.53,4.20,4.25,4.48,4.36,4.36,4.53,4.41,4.19
+2020,Spring,Carnegie Institute of Technology,CEE,12271,INT CM AP CV ENV ENG,Undergraduate,9.06,4.97,4.87,4.84,4.87,4.90,4.87,4.90,4.90,4.81
+2020,Spring,Carnegie Institute of Technology,CEE,12350,ST: SOL DEC SYS DES,Undergraduate,8.00,4.27,3.86,3.91,3.86,4.18,3.73,4.55,3.86,3.82
+2020,Spring,Carnegie Institute of Technology,CEE,12351,ENVRMNTL ENGINEERING,Undergraduate,6.63,4.68,4.06,4.13,4.00,4.22,4.07,4.81,4.12,3.85
+2020,Spring,Carnegie Institute of Technology,CEE,12352,ENVMNTL ENGRNG LAB,Undergraduate,4.78,4.26,3.74,3.74,3.48,4.11,3.56,4.81,3.56,3.44
+2020,Spring,Carnegie Institute of Technology,CEE,12358,MATERIALS LAB,Undergraduate,4.52,4.65,3.84,4.29,4.03,4.39,4.06,4.65,4.13,3.81
+2020,Fall,Carnegie Institute of Technology,CEE,12421,ENGINEERNG ECONOMICS,Undergraduate,9.73,4.67,4.67,4.77,4.23,4.63,4.57,4.73,4.57,4.40
+2020,Spring,Carnegie Institute of Technology,CEE,12600,AUTOCAD,Graduate,4.61,4.61,4.65,4.65,4.26,4.43,4.61,4.74,4.57,4.52
+2020,Fall,Carnegie Institute of Technology,CEE,12606,TRAFFIC ENGINEERING,Graduate,5.50,3.75,3.58,3.67,3.42,3.92,3.67,4.42,3.33,3.42
+2020,Spring,Carnegie Institute of Technology,CEE,12623,MOL SIM MATERIAL,Graduate,12.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+2020,Spring,Carnegie Institute of Technology,CEE,12631,STRUCTURAL DESIGN,Graduate,12.00,4.67,4.50,4.08,4.50,4.67,4.17,4.67,4.58,4.33
+2020,Spring,Carnegie Institute of Technology,CEE,12636,GEOTECHNICAL ENGINR,Graduate,9.25,4.67,4.00,4.25,4.17,4.58,3.25,4.67,3.42,3.75
+2020,Summer,Carnegie Institute of Technology,CEE,12659,SP TOPICS MATLAB,Graduate,11.00,5.00,5.00,5.00,5.00,4.00,4.00,5.00,5.00,5.00
+2020,Spring,Carnegie Institute of Technology,CEE,12690,INDEPENDENT STUDY,Graduate,3.50,4.50,4.50,3.50,4.50,4.50,4.50,4.50,4.50,4.50
+2020,Spring,Carnegie Institute of Technology,CEE,12703,NUMERCL MTHD ENGING,Graduate,11.67,3.67,3.50,3.33,3.33,3.33,3.67,3.83,3.67,3.67
+2020,Spring,Carnegie Institute of Technology,CEE,12711,BIM ENG CONS FAC MGM,Graduate,9.69,4.10,4.24,4.17,4.17,4.21,4.14,4.54,4.00,3.93
+2020,Spring,Carnegie Institute of Technology,CEE,12714,ENV LFE CYC ASSMNT,Graduate,10.84,4.79,4.58,4.68,4.58,4.63,4.33,4.74,4.37,4.32
+2020,Spring,Carnegie Institute of Technology,CEE,12718,EESS PROJECT,Graduate,11.70,4.80,4.70,4.80,4.70,4.50,4.50,5.00,4.80,4.70
+2020,Spring,Carnegie Institute of Technology,CEE,12724,BIOLGL WASTWTR MANGM,Graduate,14.00,4.67,4.17,4.25,4.50,4.58,3.92,4.92,4.00,4.25
+2020,Spring,Carnegie Institute of Technology,CEE,12725,FTE TRNS PHSCHM PROC,Graduate,14.33,4.78,4.78,4.89,4.22,4.78,4.67,4.67,4.78,4.89

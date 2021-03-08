@@ -20,7 +20,7 @@ Props > {
         return (<div>
 
             <div className="col-12 nav">
-                <img className="wordmark_white" src={wordmark_white} onError="this.style.borderWidth=0" alt="Carnegie Mellon University" onClick={()=>{window.location = '/'}}/>
+                <img className="wordmark_white" src={wordmark_white} onError={ () => this.style.borderWidth = 0} alt="Carnegie Mellon University" onClick={()=>{window.location = '/'}}/>
                 <h1 className="nav" onClick={()=>{window.location = '/'}} >Course Advisor</h1>
 
                 <ul className="nav">

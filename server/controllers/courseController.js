@@ -6,7 +6,7 @@ createCourse = (req, res) => {
     if (!body) {
         return res.status(400).json({
             success: false,
-            error: 'You must provide a movie',
+            error: 'You must provide a course',
         })
     }
 
@@ -108,13 +108,12 @@ getCourseById = async (req, res) => {
     }).catch(err => console.log(err))
 }
 
-
 getCourses = async (req, res) => {
     await CourseInfo.find({}, (err, courses) => {
         if (err) {
             return res.status(400).json({ success: false, error: err })
         }
-        if (!coures.length) {
+        if (!courses.length) {
             return res
                 .status(404)
                 .json({ success: false, error: `Course not found` })

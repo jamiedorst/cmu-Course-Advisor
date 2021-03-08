@@ -1,11 +1,26 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
+const MongoClient = require('mongodb').MongoClient;
 
-mongoose
-    .connect('mongodb://127.0.0.1:27017/cmu_course_advisor', { useNewUrlParser: true })
-    .catch(e => {
-        console.error('Connection error', e.message)
-    })
 
-const db = mongoose.connection
+const connectDB = async () => {
+    try {
+        //database Name
+        const databaseName='cmu_courses';   
+       
+        // Mongo Cluster pass: cmucourseadvisor
+        const uri = "mongodb+srv://6f5fbc4530c8429662a2fb866d79d714:cmucourseadvisor@cluster0.hoxvk.mongodb.net/cmu_courses?retryWrites=true&w=majority";
+        const client = new MongoClient(uri, { useNewUrlParser: true });
 
-module.exports = db
+        const con = await mongoose.connect(uri, { 
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true
+        });
+        console.log(`Database connected : ${con.connection.host}`)
+    } catch (error) {
+        console.error(`Error: ${error.message}`)
+        process.exit(1)
+    }
+}
+module.exports = connectDB
+

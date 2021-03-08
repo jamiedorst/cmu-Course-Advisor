@@ -1,70 +1,69 @@
 'use strict';
+
 // Base Code
-const bodyParser = require('body-parser');
-const express = require('express');
-const mongoose = require('mongoose');
 
 // TODO: Unsure what this is doing
+const bodyParser = require('body-parser');
 const passport = require('passport');
 const session = require('express-session');
-const db = require('./db')
-
-const MongoStore = require('connect-mongo')(session);
 const flash = require('connect-flash');
 
 
+const cors = require('cors')
+const express = require('express');
+require('dotenv').config();
+
+const connectDB = require('./db')
+
+//Connect to database
+connectDB()
+
 // Setup express app
 const app = express();
+const port = process.env.PORT || 5000;
 
-// TODO: Unsure what this is doing
-const server = require('http').Server(app);
-// const io = require('socket.io')(server);
+app.use(cors())
+app.use(express.json())
 
-// const tools = require('./custom_modules/tools.js');
-const port = 5000;
+require('./routes/router.js') (app);
 
-app.use(
-  bodyParser.urlencoded({
-  extended: false
-}));
-
-app.use(bodyParser.json());
-app.use(express.static(__dirname + '/src'));
-
-//TODO: Unsure what this is doing
-app.use(session({
-  secret: 'oasissupersecretpass',
-  saveUninitialized: false,
-  resave: false,
-  cookie: {
-    maxAge: 3600000
-  }
-}));
-
-app.use(flash());
-app.use(passport.initialize());
-app.use(passport.session());
-
-// TODO: In starter code but unsure if this is needed. 
-// app.use(cors()
-
-require('./routes/router.js')(app);
+// TODO: do we need this?
 require('./services/passport')(passport);
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-
-// Moved logic to server/db/index.js
-// mongoose.connect('mongodb://localhost:27017/oasis', {
-//   useNewUrlParser: true
-// });
-
-// mongoose.set('useCreateIndex', true);
-// const db = mongoose.connection;
-
-server.listen(port, () => {
-  console.log('Example app listening on port 5000!');
+app.listen(port, () => {
+  console.log(`Server is running on port: ${port}`);
 });
+
+
+
+// TODO: Unsure what this is doing
+//const server = require('http').Server(app);
+
+// const io = require('socket.io')(server);
+// const tools = require('./custom_modules/tools.js');
+
+// app.use(
+//   bodyParser.urlencoded({
+//   extended: false
+// }));
+
+//app.use(bodyParser.json());
+//app.use(express.static(__dirname + '/src'));
+
+//TODO: Unsure what this is doing
+// app.use(session({
+//   secret: 'oasissupersecretpass',
+//   saveUninitialized: false,
+//   resave: false,
+//   cookie: {
+//     maxAge: 3600000
+//   }
+// }));
+
+// app.use(flash());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 
 

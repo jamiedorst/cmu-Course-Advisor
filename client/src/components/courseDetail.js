@@ -3,21 +3,58 @@ import React, {Component} from 'react';
 import './css/master.css';
 import thumbsUp from '../images/thumbsUp.png';
 import thumbsDown from '../images/thumbsDown.png';
+import api from '../api'
 
-type State = {};
-type Props = {};
+class CourseDetail extends Component {
 
-class CourseDetail extends Component < State, Props > {
+    constructor(props) {
+        super(props)
+        
+        this.state = {
+            courseTitle: "",
+            isLoading: false,
+        }
+        
+    }
+
+    componentDidMount = async () => {
+        this.setState({ isLoading: true })
+
+        await api.getCourseById("6007c134bfd41c18c8d9b65d").then(course => {
+            console.log("THIS IS MY DATA LOOK HERE")
+            console.log(course.data.data.overall_teaching_rate);
+            this.setState({
+                year: course.data.data.year,
+                semester: course.data.data.sem,
+                division: course.data.data.division,
+                department: course.data.data.dept,
+                num: course.data.data.num,
+                courseName: course.data.data.course_name,
+                courseLevel: course.data.data.course_level,
+                hrsPerWeek: course.data.data.hrs_per_week,
+                interestInStudentLearning: course.data.data.interest_in_student_learning,
+                clearCourseRequirements: course.data.data.clear_course_requirements,
+                clearLearningObjectives: course.data.data.clear_learning_objectives,
+                providesFeedback: course.data.data.provides_feedback,
+                demonstratesImportanceOfSubjectMatter: course.data.data.demonstrates_importance_of_subject_matter,
+                explainsSubjectMatter: course.data.data.explains_subject_matter,
+                respectForStudents: course.data.data.respect_for_students,
+                overallTeachingRate: course.data.data.overall_teaching_rate,
+                overallCourseRate: course.data.data.overall_course_rate,
+                isLoading: false,
+            })
+        })
+    }
 
     render() {
         return (<div>
 
             <div className="col-12 detail">
-                <h1 className="about">Fundamentals of Programming and Computer Science</h1>
+                <h1 className="about">Title: {this.state.courseName}</h1>
             </div>
 
             <div className="col-9 detail">
-                <p className="big detail">15-112 | SCS: Computer Science</p>
+                <p className="big detail">{this.state.num} | {this.state.division}</p>
             </div>
 
             <div className="col-3 detail">
@@ -142,7 +179,7 @@ class CourseDetail extends Component < State, Props > {
                 </div>
 
                 <div className="section header">
-                    <h5 className="detail">4.6<span className="outOf">&#47;5</span></h5>
+                    <h5 className="detail">{this.state.overallCourseRate}<span className="outOf">&#47;5</span></h5>
                     <h4 className="detail label">Overall Rating</h4>
                 </div>
                 <div id="topLine"></div>
@@ -150,34 +187,34 @@ class CourseDetail extends Component < State, Props > {
                 
                 <div className="rating">
                     <h4 className="detail smaller">Overall Teaching</h4>
-                    <h5 className="detail smaller">4.5<span className="outOf smaller">&#47;5</span></h5>
+                    <h5 className="detail smaller">{this.state.overallTeachingRate}<span className="outOf smaller">&#47;5</span></h5>
                 </div>
                 <div className="scale"></div>
                 <div className="measurement" id="overallTeaching"></div>
 
                 <div className="rating">
-                    <h4 className="detail smaller">Interest in Teaching</h4>
-                    <h5 className="detail smaller">4.7<span className="outOf smaller">&#47;5</span></h5>
+                    <h4 className="detail smaller">Interest in Student Learning</h4>
+                    <h5 className="detail smaller">{this.state.interestInStudentLearning}<span className="outOf smaller">&#47;5</span></h5>
                 </div>
                 <div className="scale"></div>
                 <div className="measurement" id="interestTeaching"></div>
 
                 <div className="rating">
                     <h4 className="detail smaller">Goal Clarity</h4>
-                    <h5 className="detail smaller">4.6<span className="outOf smaller">&#47;5</span></h5>
+                    <h5 className="detail smaller">{(this.state.clearCourseRequirements + this.state.clearLearningObjectives)/2}<span className="outOf smaller">&#47;5</span></h5>
                 </div>
                 <div className="scale"></div>
                 <div className="measurement" id="goalClarity"></div>
 
                 <div className="rating">
                     <h4 className="detail smaller">Quality of Feedback</h4>
-                    <h5 className="detail smaller">4.4<span className="outOf smaller">&#47;5</span></h5>
+                    <h5 className="detail smaller">{this.state.providesFeedback}<span className="outOf smaller">&#47;5</span></h5>
                 </div>
                 <div className="scale"></div>
                 <div className="measurement" id="qualityFeedback"></div>
 
                 <div className="section header" id="spacer">
-                    <h5 className="detail">18.5<span className="outOf">&#47;12</span></h5>
+                    <h5 className="detail">{this.state.hrsPerWeek}</h5>
                     <h4 className="detail label">Hours per Week</h4>
                 </div>
 
