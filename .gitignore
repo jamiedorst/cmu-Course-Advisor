@@ -1,2 +1,6 @@
 .DS_Store
 chromedriver
+node_modules
+build
+npm-debug.log
+.env
